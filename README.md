@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Linux Test</title>
   <meta name="description" content="Daily Linux Content on YouTube and Odysee">
   <meta name="generator" content="Eleventy v1.0.2">
   <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="The Linux Cast">
