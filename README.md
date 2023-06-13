@@ -35,11 +35,11 @@
           class="menu"></a>
     </li>
     <li>
-      <a href="https://gitlab.com/SlimTux1" target="_blank"><img src="/img/github.png" title="Find My Dotfiles"
+      <a href="https://github.com/SlimTux" target="_blank"><img src="/img/github.png" title="Find My Dotfiles"
           class="menu"></a>
     </li>
     <li>
-      <a href="https://github.com/SlimTux" target="_blank"><img src="/img/gitlab.png" title="Find My Dotfiles"
+      <a href="https://gitlab.com/SlimTux1" target="_blank"><img src="/img/gitlab.png" title="Find My Dotfiles"
           class="menu"></a>
     </li>
   </ul>
