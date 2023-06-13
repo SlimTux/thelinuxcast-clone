@@ -50,3 +50,13 @@ youtube: tv-_1er1mWI
 «<span style="color:purple">"É a</span><span style="color:red"> H</span><span style="color:purple">ora!"</span>»
 + A palavra "Hora" é grafada com letra maiúscula para dar um efeito enfático.
 ```
+
+```
+<script src="https://utteranc.es/client.js"
+        repo="mtwb47/TLC-Comments"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+```
