@@ -1,110 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wrapping Up Redcore - Things That Could Be Better</title>
     <meta name="description" content="Redcore was a while ago, but this is the wrap up.">
     <meta name="generator" content="Eleventy v1.0.2">
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="The Linux Cast">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="The Linux Cast">
-		<link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="The Chad's Cast">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="The Chad's Cast">
+    <link rel="shortcut icon" href="/img/favicon.png">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/tlc.css">
-	</head>
-	<body>
-    <a href="/"><img src="/img/logo.png" alt="logo" class="logo"></a> 
-		<h1 class="header"><a href="/">The Linux Cast</a></h1>
-		<h2 class="subheader">Daily Linux Content on YouTube and Odysee</h2>
+</head>
+
+<body>
+    <a href="/"><img src="/img/logo.png" alt="logo" class="logo"></a>
+    <h1 class="header"><a href="/">The Chad's Cast</a></h1>
+    <h2 class="subheader">Daily Linux Content on YouTube and Odysee</h2>
     <ul class="menu center">
-    <li>
-      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
-    </li>
-     <li>
-      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
-    </li>
- </ul>
+        <li>
+            <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png"
+                    title="Subscribe on YouTube" class="menu"></a>
+        </li>
+        <li>
+            <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png"
+                    title="Subscribe on Anchor" class="menu"></a>
+        </li>
+        <li>
+            <a href="https://patreon.com/thelinuxcast" target="_blank"><img src="/img/patreon.png"
+                    title="Support on Patreon" class="menu"></a>
+        </li>
+        <li>
+            <a href="https://zaney.creator-spring.com/" target="_blank"><img src="/img/store.png"
+                    title="Shop in our store" class="menu"></a>
+        </li>
+        <li>
+            <a href="https://gitlab.com/thelinuxcast" target="_blank"><img src="/img/gitlab.png"
+                    title="Find My Dotfiles" class="menu"></a>
+        </li>
+    </ul>
 
     <main class="tmpl-post">
-      
-
-<p class="date" ><time datetime="2023-05-22">22 May 2023</time></p>
-<h1>Wrapping Up Redcore - Things That Could Be Better</h1>
 
 
-<p>This blog post was supposed to be done last week, but alas it got away from me. I still wanted to cover this topic, though, so I might as well go ahead and do it. I know it has been a while since I lost the challenge, but this is the last bit I needed to do before I can put it in the dustbin of history, as they say. So I want to talk about 5 things that I feel Redcore could do better. In the exclusive <a href="https://patreon.com/thelinuxcast">patron only podcast</a> I posted a couple weeks ago, I talked about the things I really liked about Redcore. So, I figure in the blog post I'll focus on a few things that need to improve.</p>
-<h1>BTRFS Support</h1>
-<p>I'll be frank, this would have been a huge help for me, and if I'd had it, I probably wouldn't have lost the challenge. I know setting up btrfs on Gentoo can be a pain in the arse, but I really think an option for it inside the Redcore installer would be amazing. I know Calamares (which Redcore uses) has an option for file system selection, so it'd just be the back end that would need to be done. The main dev, who I've talked to several times, has told me that btrfs is coming, so that's going to be awesome. Just the option to do btrfs snapshots, will make the entire Gentoo thing less stressful.</p>
-<h1>Other DE/WM Options</h1>
-<p>This is the hardest for a small dev team to do, simply because it takes time to manage. But a couple other options other than Plasma would be awesome. And again, this is coming. There's a Qtile version that will be a part of the next release. Personally, I'd love an XFCE version, but I'm asking too much. With a DE and a WM, it will be much better than it is now.</p>
-<h1>Make It Easier to Get to Rolling</h1>
-<p>On their website, they claim that Redcore is build on Gentoo Testing, and it is, but there's an asterisk there that's not apparent. Redcore maintains their own repositories that are delayed away from the main Gentoo testing repos and they have another (I think it's called <em>next</em>) that is closer to testing than the main one is. You can use Sisyphus to switch, but it's not as easy as you might like it to be, especially if you don't use the GUI (which I didn't even know existed until I wanted to change repos). A simple command of some sort to switch would make it so much easier. A script or something. I also think they could be more umfront on their website about how the repos are actually set up. Saying it's based on Gentoo Testing is a little disingenuous, at least in my opinion.</p>
-<h1>Sisyphus is a Stoopid Name</h1>
-<p>Redcore has it's own package manager. It's name is Sisyphus. I have never once typed it out without mistyping it. I don't really know what else I need to say. The package manager name is dumb and hard to type. I'm sorry, but it is. It shouldn't be a Sisyphean Task just to spell the damn package manager. You see what I did there? lolz.</p>
-<h1>More Gentoo Tools Please</h1>
-<p>I'm aware now, more than ever, that I didn't use Redcore like I think the devs want you to use it. You're supposed to rely on Sisyphus more than I did, you're supposed to stick with Plasma, and you're supposed to use the GUI tools that they provide. I didn't do that. I used emerge and I used a window manager, and I used the terminal to do all my management of Redcore.</p>
-<p>One of the stated goals of Redcore is to allow people to get used to using Gentoo without all the hassle of installing it. I think they could do a better job of this, by making it more like Gentoo and less like its own separate thing. One of the ways they could do this would simply be to include more Gentoo terminal tools out of the box. Things like eix and equery so that it's easy to find packages and overlays. That'd be awesome.</p>
-<h1>Conclusions</h1>
-<p>I love Redcore. Honestly, I may give it a try again one day. I'm not a Gentoo guy, as I've now conclusively proven, but the distro itself was really good for the three months that I used it. And I think it says a lot about how true that is that I was only able to come up with the things above that they should improve (2 of which are already on the list of things to do). So good job Redcore. I will keep an eye on you. #Creepy</p>
-<p>I hope everyone has a great week. If you're reading this on the
-website, you can get all of my blog posts two week's early by
-supporting me on <a href="https://patreon.com/thelinuxcast">Patreon</a>.</p>
-<p>Matt</p>
+        <p class="date"><time datetime="2023-05-22">22 May 2023</time></p>
+        <h1>Wrapping Up Redcore - Things That Could Be Better</h1>
 
 
-<script src="https://utteranc.es/client.js"
-        repo="mtwb47/TLC-Comments"
-        issue-term="pathname"
-        theme="gruvbox-dark"
-        crossorigin="anonymous"
-        async>
-</script>
+        <p>This blog post was supposed to be done last week, but alas it got away from me. I still wanted to cover this
+            topic, though, so I might as well go ahead and do it. I know it has been a while since I lost the challenge,
+            but this is the last bit I needed to do before I can put it in the dustbin of history, as they say. So I
+            want to talk about 5 things that I feel Redcore could do better. In the exclusive <a
+                href="https://patreon.com/thelinuxcast">patron only podcast</a> I posted a couple weeks ago, I talked
+            about the things I really liked about Redcore. So, I figure in the blog post I'll focus on a few things that
+            need to improve.</p>
+        <h1>BTRFS Support</h1>
+        <p>I'll be frank, this would have been a huge help for me, and if I'd had it, I probably wouldn't have lost the
+            challenge. I know setting up btrfs on Gentoo can be a pain in the arse, but I really think an option for it
+            inside the Redcore installer would be amazing. I know Calamares (which Redcore uses) has an option for file
+            system selection, so it'd just be the back end that would need to be done. The main dev, who I've talked to
+            several times, has told me that btrfs is coming, so that's going to be awesome. Just the option to do btrfs
+            snapshots, will make the entire Gentoo thing less stressful.</p>
+        <h1>Other DE/WM Options</h1>
+        <p>This is the hardest for a small dev team to do, simply because it takes time to manage. But a couple other
+            options other than Plasma would be awesome. And again, this is coming. There's a Qtile version that will be
+            a part of the next release. Personally, I'd love an XFCE version, but I'm asking too much. With a DE and a
+            WM, it will be much better than it is now.</p>
+        <h1>Make It Easier to Get to Rolling</h1>
+        <p>On their website, they claim that Redcore is build on Gentoo Testing, and it is, but there's an asterisk
+            there that's not apparent. Redcore maintains their own repositories that are delayed away from the main
+            Gentoo testing repos and they have another (I think it's called <em>next</em>) that is closer to testing
+            than the main one is. You can use Sisyphus to switch, but it's not as easy as you might like it to be,
+            especially if you don't use the GUI (which I didn't even know existed until I wanted to change repos). A
+            simple command of some sort to switch would make it so much easier. A script or something. I also think they
+            could be more umfront on their website about how the repos are actually set up. Saying it's based on Gentoo
+            Testing is a little disingenuous, at least in my opinion.</p>
+        <h1>Sisyphus is a Stoopid Name</h1>
+        <p>Redcore has it's own package manager. It's name is Sisyphus. I have never once typed it out without mistyping
+            it. I don't really know what else I need to say. The package manager name is dumb and hard to type. I'm
+            sorry, but it is. It shouldn't be a Sisyphean Task just to spell the damn package manager. You see what I
+            did there? lolz.</p>
+        <h1>More Gentoo Tools Please</h1>
+        <p>I'm aware now, more than ever, that I didn't use Redcore like I think the devs want you to use it. You're
+            supposed to rely on Sisyphus more than I did, you're supposed to stick with Plasma, and you're supposed to
+            use the GUI tools that they provide. I didn't do that. I used emerge and I used a window manager, and I used
+            the terminal to do all my management of Redcore.</p>
+        <p>One of the stated goals of Redcore is to allow people to get used to using Gentoo without all the hassle of
+            installing it. I think they could do a better job of this, by making it more like Gentoo and less like its
+            own separate thing. One of the ways they could do this would simply be to include more Gentoo terminal tools
+            out of the box. Things like eix and equery so that it's easy to find packages and overlays. That'd be
+            awesome.</p>
+        <h1>Conclusions</h1>
+        <p>I love Redcore. Honestly, I may give it a try again one day. I'm not a Gentoo guy, as I've now conclusively
+            proven, but the distro itself was really good for the three months that I used it. And I think it says a lot
+            about how true that is that I was only able to come up with the things above that they should improve (2 of
+            which are already on the list of things to do). So good job Redcore. I will keep an eye on you. #Creepy</p>
+        <p>I hope everyone has a great week. If you're reading this on the
+            website, you can get all of my blog posts two week's early by
+            supporting me on <a href="https://patreon.com/thelinuxcast">Patreon</a>.</p>
+        <p>Matt</p>
 
-<ul>
-  <li><a href="/index.html">Home</a></li><li>Next: <a href="/posts/Early thoughts on Nano/">Early Thoughts on Nano</a></li><li>Previous: <a href="/posts/hoarder/">I Have a Hoarding Problem</a></li>
-</ul>
+
+        <script src="https://utteranc.es/client.js" repo="mtwb47/TLC-Comments" issue-term="pathname"
+            theme="gruvbox-dark" crossorigin="anonymous" async>
+            </script>
+
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li>Next: <a href="/posts/Early thoughts on Nano/">Early Thoughts on Nano</a></li>
+            <li>Previous: <a href="/posts/hoarder/">I Have a Hoarding Problem</a></li>
+        </ul>
 
     </main>
     <footer>
-    <ul class="menu center">
-    <li>
-      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
-    </li>
-    <li>
-      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
-    </li>
-     <li>
-      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
-    </li>
- </ul>
+        <ul class="menu center">
+            <li>
+                <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png"
+                        title="Subscribe on YouTube" class="menu"></a>
+            </li>
+            <li>
+                <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png"
+                        title="Subscribe on Anchor" class="menu"></a>
+            </li>
+            <li>
+                <a href="https://patreon.com/thelinuxcast" target="_blank"><img src="/img/patreon.png"
+                        title="Support on Patreon" class="menu"></a>
+            </li>
+            <li>
+                <a href="https://zaney.creator-spring.com/" target="_blank"><img src="/img/store.png"
+                        title="Shop in our store" class="menu"></a>
+            </li>
+            <li>
+                <a href="https://gitlab.com/thelinuxcast" target="_blank"><img src="/img/gitlab.png"
+                        title="Find My Dotfiles" class="menu"></a>
+            </li>
+        </ul>
 
-    <p class="center">
-    <a href="https://thelinuxcast.org/contact">Contact Us</a>  | <a href="https://anchor.fm/the-three-cast"
-      target="_blank">The 3 Cast</a> | <a href="https://discord.com/invite/bPJ4A3bPbV"
-      target="_blank">Discord</a> | <a rel="me" href="https://fosstodon.org/@thelinuxcast">Mastodon</a>
-  | <a href="https://thelinuxcast.org/patrons/">Patrons</a>
-       | <a href="/feed/feed.xml">RSS</a>
-</p>
+        <p class="center">
+            <a href="https://thelinuxcast.org/contact">Contact Us</a> | <a href="https://anchor.fm/the-three-cast"
+                target="_blank">The 3 Cast</a> | <a href="https://discord.com/invite/bPJ4A3bPbV"
+                target="_blank">Discord</a> | <a rel="me" href="https://fosstodon.org/@thelinuxcast">Mastodon</a>
+            | <a href="https://thelinuxcast.org/patrons/">Patrons</a>
+            | <a href="/feed/feed.xml">RSS</a>
+        </p>
 
 
-    <hr>
-<p class="center footer">This <a href="https://gitlab.com/thelinuxcast/thelinuxcastweb">website</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> | Developed by <a href="https://jorisvandijk.com">Joris</a></p> 
+        <hr>
+        <p class="center footer">This <a href="https://gitlab.com/thelinuxcast/thelinuxcastweb">website</a> is licensed
+            under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> | Developed by <a
+                href="https://jorisvandijk.com">Joris</a></p>
 
     </footer>
-  </body>
+</body>
+
 </html>
