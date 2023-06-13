@@ -35,7 +35,7 @@
           class="menu"></a>
     </li>
     <li>
-      <a href="https://github.com/SlimTux" target="_blank"><img src="/img/github.png" title="Find My Dotfiles"
+      <a href="https://github.com/SlimTux" target="_blank"><img src="/img/github-mark.png" title="Find My Dotfiles"
           class="menu"></a>
     </li>
     <li>
