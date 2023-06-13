@@ -44,4 +44,6 @@
     </li>
   </ul>
 
+![qrcode](https://hackmd.io/_uploads/r1yAig_H2.png)
+
   <main class="tmpl-home">
