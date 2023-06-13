@@ -1,2 +1,2 @@
 # thelinuxcast-clone
-## [link](https://slimtux.github.io/thelinuxcast-clone/)
+## [link](https://thelinuxcast-clone.vercel.app/)
