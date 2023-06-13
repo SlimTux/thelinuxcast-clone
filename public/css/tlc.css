@@ -1,0 +1,63 @@
+/* By Joris van Dijk | gitlab.com/jorisvandijk */
+/* Licensed under the GNU General Public License v3.0 */
+
+/* TLC Theme */
+
+body, html {
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+.header, .header a {
+	color: #d79921;
+}
+
+.subheader {
+	color: #b16386;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	border: 0px;
+}
+
+.date {
+	color: #a89984;
+}
+
+.back:before{
+	color: #8ec87c;
+}
+
+h1, h2, h3, h4 {
+	color: #d65d0e;
+}
+
+a {
+	color: #d79921;
+}
+
+a:hover {
+	transition: background-color 0.1s, color 1.1s;
+	background-color: #d79921;
+	color: #282828;
+	text-decoration: none;
+        transform: scale(1.2);
+}
+
+img {
+	border-color: #98971a;
+}
+
+code{
+	color: #a89984;
+	background-color: #ebdbb2;
+}
+
+blockquote p{
+	background: #fabd3f;
+}

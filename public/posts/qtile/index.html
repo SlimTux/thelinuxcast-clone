@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qtile Is Effin&#39; Awesome</title>
+    <meta name="description" content="Yes, xmonad is still coming.">
+    <meta name="generator" content="Eleventy v1.0.2">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="The Linux Cast">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="The Linux Cast">
+		<link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tlc.css">
+	</head>
+	<body>
+    <a href="/"><img src="/img/logo.png" alt="logo" class="logo"></a> 
+		<h1 class="header"><a href="/">The Linux Cast</a></h1>
+		<h2 class="subheader">Daily Linux Content on YouTube and Odysee</h2>
+    <ul class="menu center">
+    <li>
+      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
+    </li>
+     <li>
+      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
+    </li>
+ </ul>
+
+    <main class="tmpl-post">
+      
+
+<p class="date" ><time datetime="2023-03-06">06 Mar 2023</time></p>
+<h1>Qtile Is Effin&#39; Awesome</h1>
+
+
+<p>So, last week <a href="https://thelinuxcast.org/posts/xmonad/">I wrote</a> about how I was commissioned to try xmonad for some time. I think, probably, y'all found that I was not so...shall we say, looking forward to it. Xmonad isn't my favorite, and as I said in that blog post, me and that Window Manager have a history. So, is it at all surprising that I got sidetracked on the way to Xmonad?</p>
+<p>No. Not it is not. LMAO.</p>
+<p>When I couldn't immediately get Xmonad to install on Redcore, I gave up and decided that I was going to give qtile a try. This after talking to one of my fellow Linux YouTube Creators who has recently switched to Qtile using my config. I decided that it has been a fair bit since I used Qtile and that it was high time that I give it another go. It had nothing to do with procrastinating my eventual successful installation of Xmonad. Nay. Nothing at all.</p>
+<p><a href="/img/qtile.png"><img src="/img/qtile.png" alt="qtile"></a></p>
+<p>So, I've spent the last week using Qtile. It's wonderful, it really is. I always kind of forget how good it is because of my continued and eternal love for i3 Window Manager. While I'm not as knowledgeable about Python as I am about the non-language that i3 is configured in, I know my way around Qtile a bit, and it has been a blast getting my config all spruced up after a few months of neglect.</p>
+<p>I think maybe, some of my happiness over doing this is because I need to feel something new, what with my habitation of Redcore for the next 5 months or so (it's counting down!). I'll have another blog post about Redcore next week, but needless to say, while I don't hate it, I miss Fedora. So, hopping from one Window Manager to another has been my fix for all that.</p>
+<p>Qtile is extensible enough that it has kept me busy in the off times. I've added some widgets to my bar, created a few new things, and have started to work on a script so I can change between themes easily with rofi (similar to how I did with i3). It's been, as I said, a blast.</p>
+<p>One thing I noticed, is that Qtile does scratchpads way better than i3. I don't think the last time I used Qtile, I really thought that was the case. It's not as if i3 has bad scratchpads, but I've always thought they were good enough with some flaws. No other WM has ever matched up to DWM's scratchpads, so thinking about comparing i3 and Qtile's scratchpads never really occurred to me.</p>
+<p>But, Qtile's are better. For one, it's slightly easier to dictate the size for scratchpads inside the config. i3 can do it fine, but it's just a little easier in Qtile (it can be done when you configure the scratchpad, not in a separate rule). Second, and this is the big one when you kill a scratchpad in i3, it goes away. In Qtile, it relaunches. In i3, you'd have to restart i3 to get the scratchpad to relaunch. Joris even made his so that they could not be killed (or at least he tried, can't remember if he was successful or not). With Qtile, none of that matters, since they just pop back up if you kill them off.</p>
+<p>i3 does win in one place, when it comes to scratchpads, though. When you pop a scratchpad out of the scratchpad space on i3, it's simple to pop it back in, in its current use state. In Qtile, that seems to be impossible. Once a scratchpad is no longer a scratchpad, it can't be made one again. That's not a huge deal, but it is a bummer given how good the system is otherwise.</p>
+<p>Now to go back and count how many times I used the word scratchpad in the previous paragraphs. LOL.</p>
+<p>Outside of the scratchpad thing, I love qtile's bar. While I wish that it was easier to put in my own scripts (that is apparently going to get easier in the next version), the built-in widgets that Qtile offers, are amazing. I love Polybar, and it remains my favorite bar just because I'm most familiar with it, but Qtile's bar has taken the #2 spot. I don't care as much for the configuration of it, especially when dealing with multiple monitors, so it probably won't ever be my favorite, but it is still really, really good.</p>
+<p>Finally, I like the way it does workspaces. You can move workspaces between monitors easily on i3, for sure, but the default way Qtile handles workspaces is wonderful. Once you get used to the idea of the workspace being fluid and moving between monitors, you really learn to love that workflow. It always takes some getting used to, but I think I always miss it for a bit when I go back to a Window Manager that has its workspaces or tags hard-wired onto a monitor.</p>
+<p>So, yeah, Qtile. Not Xmonad. I did get Xmonad installed, finally, thanks to the Redcore developer who took care of some issues with one of Haskell's dependencies. But I have not booted into it yet. First, I'm dreading it, but I'm also just loving Qtile too much right now. So it will wait a few days or weeks until I feel the need to hop again.</p>
+<p>If you're reading this on the website, you can get all of my blog posts early by supporting me on <a href="https://patreon.com/thelinuxcast">Patreon</a>. Hope everyone has a wonderful week,</p>
+<p>Matt</p>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="mtwb47/TLC-Comments"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<ul>
+  <li><a href="/index.html">Home</a></li><li>Next: <a href="/posts/pythongoals/">I&#39;m Going to Learn Python</a></li><li>Previous: <a href="/posts/xmonad/">Xmonad is Coming</a></li>
+</ul>
+
+    </main>
+    <footer>
+    <ul class="menu center">
+    <li>
+      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
+    </li>
+     <li>
+      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
+    </li>
+ </ul>
+
+    <p class="center">
+    <a href="https://thelinuxcast.org/contact">Contact Us</a>  | <a href="https://anchor.fm/the-three-cast"
+      target="_blank">The 3 Cast</a> | <a href="https://discord.com/invite/bPJ4A3bPbV"
+      target="_blank">Discord</a> | <a rel="me" href="https://fosstodon.org/@thelinuxcast">Mastodon</a>
+  | <a href="https://thelinuxcast.org/patrons/">Patrons</a>
+       | <a href="/feed/feed.xml">RSS</a>
+</p>
+
+
+    <hr>
+<p class="center footer">This <a href="https://gitlab.com/thelinuxcast/thelinuxcastweb">website</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> | Developed by <a href="https://jorisvandijk.com">Joris</a></p> 
+
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Still Sucks on Linux</title>
+    <meta name="description" content="Daily Linux Content on YouTube and Odysee">
+    <meta name="generator" content="Eleventy v1.0.2">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="The Linux Cast">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="The Linux Cast">
+		<link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tlc.css">
+	</head>
+	<body>
+    <a href="/"><img src="/img/logo.png" alt="logo" class="logo"></a> 
+		<h1 class="header"><a href="/">The Linux Cast</a></h1>
+		<h2 class="subheader">Daily Linux Content on YouTube and Odysee</h2>
+    <ul class="menu center">
+    <li>
+      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
+    </li>
+     <li>
+      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
+    </li>
+ </ul>
+
+    <main class="tmpl-post">
+      
+
+<p class="date" ><time datetime="2022-06-08">08 Jun 2022</time></p>
+<h1>Audio Still Sucks on Linux</h1>
+
+
+<p>On this past Sunday night (or a week ago Sunday if you’re not a patron), I had a huge plan. I was going to rice i3wm over and over again, creating several themes. It’s something I did for DWM and wanted (and still want) to do for i3 now that i3wm is my daily driver again.</p>
+<p>The problem is that once I got streaming, no one could hear me. And I was like what the F$#k? My audio had been working fine. Tyler and I had even done a podcast a few days before that and everything worked fine during that stream.</p>
+<p>The only thing that changed was that there was an update to pipewire on Arch.</p>
+<p>Yeah. Pipewire. That piece of crap.</p>
+<p>So, I did some trouble shooting, and found that for some reason, my input/output sources were going wonky. At least one was connecting and reconnecting randomly for no apparent reason. If it was just one source, I would have thought that it was that source going bad or needing to be rebooted. But it wasn’t. One time it was one source, the next it was another. It was effing odd.</p>
+<p>Add on top of that, OBS was trying to make my amp/dac an input device, even though it’s, like, totally not an input device. This is a problem I had with Pipewire once before on Arch, so obviously this is something that happens a lot.</p>
+<p>It is infuriating.</p>
+<p>So, I decided to hop. I moved away from Vanilla Arch and decided to go to MX Linux. I figure that I won’t have to deal with random updates that break crap on a Debian-based distro.</p>
+<p>Of course, it wouldn’t get past grub once I installed it. For f#$! sake.</p>
+<p>After hours of messing around, I was about this close  , from just saying eff my Linux career, eff the YouTube Channel, eff everything, I’m installing Windows.</p>
+<p>You think I’m kidding, but it’s true. I was so, so angry. Nothing was going right.</p>
+<p>In the end, I ended up back on Arco. Arco seems to always treat me right and I enjoy their community more than any other. I get everything set back up on my system, all my apps installed, all my files back on the HDD, and what happens?</p>
+<p>Same damn audio issue.</p>
+<p>Yeah.</p>
+<p>I did get it so that it will work, but for some reason, Pavucontrol/pulsemixer still wants to do some odd things. If I have it in my normal configuration, It wants to assigned my amp/dac to be an input device. But in OBS’s audio level indicator everything seems fine. If I go into pulsemixer/pavucontrol and change all my inputs to my Scarlet Solo, as it should be, then OBS thinks that the Desktop Audio (which is an Output) is actually a mono input. WTF?</p>
+<p>Linux audio sucks. And I’ve said this before, but Pipewire actually makes audio on Linux suck unless you’re getting into Jack or something. If you’re just a normal audio user, Pipewire is still broken. Linux is 31 years old. Audio should not still be a problem.</p>
+<p>Of course, I could uninstall pipewire. But it turns out doing that actually is harder than uninstalling snaps on Ubuntu. It’s tied into everything. And I mean everything. You have to remove like 20 packages, some of them essential, to get it to go away. It’s infuriating.</p>
+<p>Anyways, it has not been a great week on Linux for me. Here’s hoping that the audio works fine for the pod on Thursday. But I’m not going to hold my breath.</p>
+<p>If you'd like to see these blog posts a week early, you can support me on Patreon here.</p>
+<p>Matt</p>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="mtwb47/TLC-Comments"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<ul>
+  <li><a href="/index.html">Home</a></li><li>Next: <a href="/posts/0005/">An Essay on YouTube Mental Health</a></li><li>Previous: <a href="/posts/0003/">I Like Flatpaks</a></li>
+</ul>
+
+    </main>
+    <footer>
+    <ul class="menu center">
+    <li>
+      <a href="https://youtube.com/thelinuxcast" target="_blank"><img src="/img/youtube.png" title="Subscribe on YouTube" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://anchor.fm/thelinuxcast" target="_blank"><img src="/img/anchor.png" title="Subscribe on Anchor" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://patreon.com/thelinuxcast" target="_blank" ><img src="/img/patreon.png" title="Support on Patreon" class="menu"></a>
+    </li>
+    <li>
+      <a href="https://zaney.creator-spring.com/" target="_blank" ><img src="/img/store.png" title="Shop in our store"  class="menu"></a>
+    </li>
+     <li>
+      <a href="https://gitlab.com/thelinuxcast" target="_blank" ><img src="/img/gitlab.png" title="Find My Dotfiles"  class="menu"></a>
+    </li>
+ </ul>
+
+    <p class="center">
+    <a href="https://thelinuxcast.org/contact">Contact Us</a>  | <a href="https://anchor.fm/the-three-cast"
+      target="_blank">The 3 Cast</a> | <a href="https://discord.com/invite/bPJ4A3bPbV"
+      target="_blank">Discord</a> | <a rel="me" href="https://fosstodon.org/@thelinuxcast">Mastodon</a>
+  | <a href="https://thelinuxcast.org/patrons/">Patrons</a>
+       | <a href="/feed/feed.xml">RSS</a>
+</p>
+
+
+    <hr>
+<p class="center footer">This <a href="https://gitlab.com/thelinuxcast/thelinuxcastweb">website</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> | Developed by <a href="https://jorisvandijk.com">Joris</a></p> 
+
+    </footer>
+  </body>
+</html>

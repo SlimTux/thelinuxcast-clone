@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>The Linux Cast</title>
+	<subtitle>Daily Linux Content on YouTube and Odysee</subtitle>
+	
+	<link href="https://thelinuxcast.org/feed/feed.xml" rel="self"/>
+	<link href="https://thelinuxcast.org/"/>
+	<updated>2023-06-02T00:00:00Z</updated>
+	<id>https://thelinuxcast.org/</id>
+	<author>
+		<name>Matt</name>
+		<email>email@thelinuxcast.org</email>
+	</author>
+	
+	<entry>
+		<title>Early Thoughts on Nano</title>
+		<link href="https://thelinuxcast.org/posts/Early%20thoughts%20on%20Nano/"/>
+		<updated>2023-06-02T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/Early%20thoughts%20on%20Nano/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Editor&#39;s Note: This was written just a week into me using Nano. Therefore I was still getting my sealegs.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am writing this in nano. I challenged myself earlier this
+week (as of writing this) to use Nano for a whole month, and I&#39;ve stuck with it for almost a week.&lt;/p&gt;
+&lt;p&gt;Almost.&lt;/p&gt;
+&lt;p&gt;I&#39;m not quitting, but I&#39;ve come so close so many times.
+Actually, I come close every single time I open the damn
+editor. Yes, it&#39;s that bad.&lt;/p&gt;
+&lt;p&gt;No, I guess it&#39;s not that bad, but it&#39;s that bad for someone
+who has been using Vim for years. Which is me.&lt;/p&gt;
+&lt;p&gt;Most of my thoughts on Nano I&#39;m going to save for the video I
+make about it at the end of the month, no sense in having a ton
+of spoilers. But I do want to talk about one thing. The biggest
+feature I miss on Nano.&lt;/p&gt;
+&lt;p&gt;Visual Mode.&lt;/p&gt;
+&lt;p&gt;I would have told you, as a Vim user, that visual mode is the
+the least used mode for me. I would have been wrong. Okay, so
+maybe Inert Mode is still the winner, but still, I apparently
+use Visual Mode a lot more than I thought because I can&#39;t tell
+you how many times a day I press V or Ctrl+V to do something
+and find that IT&#39;S NOT EFFIN THERE IN NANO! (and yes, I know holding shift will get you there, but you&#39;re not helping).&lt;/p&gt;
+&lt;p&gt;For F##$&#39;s Sake.&lt;/p&gt;
+&lt;p&gt;It drives me bonkers.&lt;/p&gt;
+&lt;p&gt;Yes there have been the habit-caused mistypes hjkl and :wq, and
+no, those haven&#39;t stopped in a week, but the Visual Mode thing
+is by far the most frustrating because Visual Mode is so damn
+useful and that it&#39;s not there, just makes Nano seem...bad.&lt;/p&gt;
+&lt;p&gt;If someone were to ask me what my thoughts on Nano are right
+now, I&#39;d say I hate it. I hate it. It&#39;s not useful, the default
+keybindings are bad, and the flow of the thing is just all wrong.&lt;/p&gt;
+&lt;p&gt;I hope that I can get some positivity for Nano before I get to
+the end of the month, but I doubt it.&lt;/p&gt;
+&lt;p&gt;I miss Vim.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wrapping Up Redcore - Things That Could Be Better</title>
+		<link href="https://thelinuxcast.org/posts/5%20Things%20That%20Redcore%20Could%20Do%20Better/"/>
+		<updated>2023-05-22T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/5%20Things%20That%20Redcore%20Could%20Do%20Better/</id>
+		<content type="html">&lt;p&gt;This blog post was supposed to be done last week, but alas it got away from me. I still wanted to cover this topic, though, so I might as well go ahead and do it. I know it has been a while since I lost the challenge, but this is the last bit I needed to do before I can put it in the dustbin of history, as they say. So I want to talk about 5 things that I feel Redcore could do better. In the exclusive &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;patron only podcast&lt;/a&gt; I posted a couple weeks ago, I talked about the things I really liked about Redcore. So, I figure in the blog post I&#39;ll focus on a few things that need to improve.&lt;/p&gt;
+&lt;h1&gt;BTRFS Support&lt;/h1&gt;
+&lt;p&gt;I&#39;ll be frank, this would have been a huge help for me, and if I&#39;d had it, I probably wouldn&#39;t have lost the challenge. I know setting up btrfs on Gentoo can be a pain in the arse, but I really think an option for it inside the Redcore installer would be amazing. I know Calamares (which Redcore uses) has an option for file system selection, so it&#39;d just be the back end that would need to be done. The main dev, who I&#39;ve talked to several times, has told me that btrfs is coming, so that&#39;s going to be awesome. Just the option to do btrfs snapshots, will make the entire Gentoo thing less stressful.&lt;/p&gt;
+&lt;h1&gt;Other DE/WM Options&lt;/h1&gt;
+&lt;p&gt;This is the hardest for a small dev team to do, simply because it takes time to manage. But a couple other options other than Plasma would be awesome. And again, this is coming. There&#39;s a Qtile version that will be a part of the next release. Personally, I&#39;d love an XFCE version, but I&#39;m asking too much. With a DE and a WM, it will be much better than it is now.&lt;/p&gt;
+&lt;h1&gt;Make It Easier to Get to Rolling&lt;/h1&gt;
+&lt;p&gt;On their website, they claim that Redcore is build on Gentoo Testing, and it is, but there&#39;s an asterisk there that&#39;s not apparent. Redcore maintains their own repositories that are delayed away from the main Gentoo testing repos and they have another (I think it&#39;s called &lt;em&gt;next&lt;/em&gt;) that is closer to testing than the main one is. You can use Sisyphus to switch, but it&#39;s not as easy as you might like it to be, especially if you don&#39;t use the GUI (which I didn&#39;t even know existed until I wanted to change repos). A simple command of some sort to switch would make it so much easier. A script or something. I also think they could be more umfront on their website about how the repos are actually set up. Saying it&#39;s based on Gentoo Testing is a little disingenuous, at least in my opinion.&lt;/p&gt;
+&lt;h1&gt;Sisyphus is a Stoopid Name&lt;/h1&gt;
+&lt;p&gt;Redcore has it&#39;s own package manager. It&#39;s name is Sisyphus. I have never once typed it out without mistyping it. I don&#39;t really know what else I need to say. The package manager name is dumb and hard to type. I&#39;m sorry, but it is. It shouldn&#39;t be a Sisyphean Task just to spell the damn package manager. You see what I did there? lolz.&lt;/p&gt;
+&lt;h1&gt;More Gentoo Tools Please&lt;/h1&gt;
+&lt;p&gt;I&#39;m aware now, more than ever, that I didn&#39;t use Redcore like I think the devs want you to use it. You&#39;re supposed to rely on Sisyphus more than I did, you&#39;re supposed to stick with Plasma, and you&#39;re supposed to use the GUI tools that they provide. I didn&#39;t do that. I used emerge and I used a window manager, and I used the terminal to do all my management of Redcore.&lt;/p&gt;
+&lt;p&gt;One of the stated goals of Redcore is to allow people to get used to using Gentoo without all the hassle of installing it. I think they could do a better job of this, by making it more like Gentoo and less like its own separate thing. One of the ways they could do this would simply be to include more Gentoo terminal tools out of the box. Things like eix and equery so that it&#39;s easy to find packages and overlays. That&#39;d be awesome.&lt;/p&gt;
+&lt;h1&gt;Conclusions&lt;/h1&gt;
+&lt;p&gt;I love Redcore. Honestly, I may give it a try again one day. I&#39;m not a Gentoo guy, as I&#39;ve now conclusively proven, but the distro itself was really good for the three months that I used it. And I think it says a lot about how true that is that I was only able to come up with the things above that they should improve (2 of which are already on the list of things to do). So good job Redcore. I will keep an eye on you. #Creepy&lt;/p&gt;
+&lt;p&gt;I hope everyone has a great week. If you&#39;re reading this on the
+website, you can get all of my blog posts two week&#39;s early by
+supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Have a Hoarding Problem</title>
+		<link href="https://thelinuxcast.org/posts/hoarder/"/>
+		<updated>2023-05-10T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/hoarder/</id>
+		<content type="html">&lt;p&gt;I have a problem.&lt;/p&gt;
+&lt;p&gt;I don&#39;t think it&#39;s actually a problem, but it feels like it&#39;s a problem.&lt;/p&gt;
+&lt;p&gt;I hoard tabs.&lt;/p&gt;
+&lt;p&gt;Now I don&#39;t think there&#39;s anyone who watches my content that is all that surprised that I like tabs in every application, nor that I tend to use them an awful lot. I have always been very upfront about my love and devotion to all things tabulated. Okay, Matt, a little creepy there, but it&#39;s true. I ❤️ tabs and I miss them when I don&#39;t have them.&lt;/p&gt;
+&lt;p&gt;But I do have a bit, a smidge, a little, hoarding problem. I may have taken it to far. I have over 100 open tabs in Firefox right now. A vast, vast, majority of them have been open for &lt;em&gt;months&lt;/em&gt;. Some of them are for video ideas that I&#39;m pretty sure I&#39;ll never get to&lt;/p&gt;
+&lt;p&gt;But I might. So I keep the tab.&lt;/p&gt;
+&lt;p&gt;Now, I am a smart guy. I have a degree just to prove it. So I know, I know, that there are better ways to save content for later so I can find it easy and use it. Things like Pocket exist. Hell, I could just create a bookmarks folder. Bookmarks have been around for 30 years or more (on the internet, I mean). I could put them in a plain text file and organize them within my video&#39;s directory. I could put them in a notes app like Google keep.&lt;/p&gt;
+&lt;p&gt;You get the idea. There are a ton of ways I could go about saving content that doesn&#39;t see me keeping that content in a Firefox tab for months or (and I do have at least one) years.&lt;/p&gt;
+&lt;p&gt;But the system works for me, and takes zero effort. I&#39;m all about zero effort, as many as you guys know. When I find something I want to save, I just send it to the appropriate tab group in Firefox and there it lives until I need it. I do close tabs when I&#39;m really done with them, so it&#39;s not as if I truly have a sickness where I can&#39;t stand to part with a tab. But, I do keep a lot of them around when  a lot of them could be closed. I mean, come on, I have been planning a TaskWarrior video for two years. I don&#39;t think it&#39;s going to happen at this point, I can probably shut the tab with that documentation down. But the monster in my brain says that I still want to do that video, even though I haven&#39;t yet gotten around to it, so the tab stays.&lt;/p&gt;
+&lt;p&gt;I know that I am not the only one who hoards tabs. There are many people who are worse than I am. At least all of mine are organized into groups. Some folks just have them all open without grouping them and that would make me grind my teeth. Also, if groups didn&#39;t exist, I think I&#39;d probably not have so many open tabs. In fact, I know I wouldn&#39;t, since before I discovered Simple Tab Groups in Firefox, I was quite proud of myself for only ever having a few tabs open.&lt;/p&gt;
+&lt;p&gt;A ton of open tabs seems to be the equivalent of storing every file you download and save on your desktop. You know those people, we&#39;ve all seen the pictures.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/manuicons.jpg&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/manyicons.jpg&quot; alt=&quot;Icons&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;While I do organize my tabs, it still feels a bit like that messy desktop. It&#39;s not the way it&#39;s supposed to be done, nor is it the best way to do it. It can be done, but there are better ways.&lt;/p&gt;
+&lt;p&gt;So, will I change? Maybe. I&#39;ve been thinking about how I can improve my system so that I don&#39;t have so many open tabs open. Maybe a rule that if I haven&#39;t used the tab in 2 months, I can shuttle that link into a file somewhere and close the tab. I have a feeling if I go that route that I&#39;ll never see those links again. The equivalent of shoving those things in a closet somewhere, never to be heard from again. I have my worries that if I&#39;m not at least reminded of those ideas that I currently have in tabs once in a while, I&#39;ll never remember that I had those ideas.&lt;/p&gt;
+&lt;p&gt;It&#39;s an odd situation to be in. It&#39;s not as if my hoarding is hurting anyone. I have plenty of resources, and most of the tabs aren&#39;t loaded by Firefox, so they aren&#39;t in memory anyway. So maybe I just stick with what feels natural to me right now. I guess we&#39;ll see.&lt;/p&gt;
+&lt;p&gt;Do you hoard tabs? Let me know in the comments below.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the website, you can get all of these posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>An Obsession With Gruvbox</title>
+		<link href="https://thelinuxcast.org/posts/An%20Obsession%20With%20Gruvbox/"/>
+		<updated>2023-04-25T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/An%20Obsession%20With%20Gruvbox/</id>
+		<content type="html">&lt;p&gt;How many people do you think could write a blog post about their obsession with a color scheme? Well, you know at least one, because that is what I&#39;m about to do. Now, I have in fact made a &lt;a href=&quot;https://www.youtube.com/watch?v=uWjNQbhGz4E&quot;&gt;video&lt;/a&gt; about it already. I have considered making another video about it.&lt;/p&gt;
+&lt;p&gt;I love Gruvbox that much.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/gruvbox.png&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/gruvbox.png&quot; alt=&quot;Gruvbox&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The funniest thing is that I didn&#39;t used to like it at all. Brown isn&#39;t really my color, neither is orange for that matter, and when I saw it for the first time I was not impressed. I thought it quite ugly, to be honest. But then I decided to try it and since then it has become my all time favorite color scheme. It&#39;s not even really all that close. Sure, I use others (Everforest, catppuccin and moonfly to name a few), but Gruvbox is the one that I keep coming back to and the one I usually end up sticking on the longest without switching.&lt;/p&gt;
+&lt;p&gt;I can&#39;t sit here and name technical reasons why Gruvbox is better. I have friends in the Linux community that hate it, I have friends that love it just as much as I do. But there is something about these colors that just go together so well. The contrast is wonderful, making it supremely readable, and it&#39;s just colorful enough that it isn&#39;t boring.&lt;/p&gt;
+&lt;p&gt;So many themes these days are based on Nord and OneDark. Both are so boring and samey. How many bloody shades of blue can you get? Boring, I tell you. And the oddest thing about those two themes is that there are so many forks of them. Like making one little change to adjust the hue of one of the shades of blue is going to make a ton of difference. Don&#39;t get me wrong, people like what they like and that&#39;s the way it should be, but I cry a little inside when I see so many people using the same four shades of OneDark. It&#39;s sad and depressing. Gruvbox is so much better.&lt;/p&gt;
+&lt;p&gt;Granted, I know it&#39;s not for everyone, but it is really just so good. I think if more people gave it a good try, they&#39;d find that it was better than they thought. I&#39;m not so sure that this applies to the light theme, but I don&#39;t like light themes in general, so nothing is going to change my mind there.&lt;/p&gt;
+&lt;p&gt;A pointless blog post? Yes. But, Gruvbox is awesome, and I&#39;ll fight anyone who says otherwise. Not really, but the idea was good. Anyways, time to take my tired ass to bed, obviously sleep deprivation is not good for solid blog post ideas, who knew?&lt;/p&gt;
+&lt;p&gt;If you&#39;re reading this on the website, you can get all of my blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;. Hope everyone has a great week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Redcore is a Bit Boring</title>
+		<link href="https://thelinuxcast.org/posts/tiredofredcore/"/>
+		<updated>2023-04-12T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/tiredofredcore/</id>
+		<content type="html">&lt;p&gt;I&#39;m almost, almost, 2 months into the #6MonthLinuxChallenge. Almost.&lt;/p&gt;
+&lt;p&gt;I&#39;m sick of Redcore. It&#39;s not as if there is anything wrong with it, though I&#39;m having an issue keeping my clock appropriately set. Redcore has been fine, as I said in my video a few days ago. It&#39;s stable enough, I have access to most of the software that I want, and it just works.&lt;/p&gt;
+&lt;p&gt;But I&#39;m astonishingly bored with it, to tell you the truth. Maybe my expectation of using a &amp;quot;Gentoo Based distro&amp;quot; is that more things would go wrong? Maybe I&#39;m looking for that one thing that I need to fix. I&#39;m bitching and moaning about my distro being too stable. It&#39;s an odd place for my mind to be in. I think mostly the reason why I&#39;m feeling this way is simply because I want to Distrohop. It&#39;s been ages since I&#39;ve installed a distro on my main computer and I want to go do that.&lt;/p&gt;
+&lt;p&gt;I think part of it is due to my recent bout with COVID. I&#39;m very interested in a fresh start right now, and that means revamping my computer. Being in the same place for so long (and knowing that I still have 4 months to go) just makes me feel antsy.&lt;/p&gt;
+&lt;p&gt;It&#39;s also the reason why I&#39;ve been messing around with other window managers almost every single day. Even though I keep coming back to Qtile, I still long for something fresh. A challenge of some kind.&lt;/p&gt;
+&lt;p&gt;I didn&#39;t know when I started the 6 Month Challenge that the challenge wouldn&#39;t be using the distro and suffering through the hardships of using an obscure distro, but instead suffering through the boredom of using the same distro for so long. That&#39;s an odd challenge.&lt;/p&gt;
+&lt;p&gt;And really, it makes no sense, since I stuck with Fedora for 8 months and was perfectly happy to do so. I don&#39;t know what&#39;s changed other than I feel like Redcore is so meh for me right now.&lt;/p&gt;
+&lt;p&gt;Honestly, I&#39;m babbling right now. In a blog post. Who even does that?&lt;/p&gt;
+&lt;p&gt;A blog post as a stream of consciousness. Maybe there&#39;s a startup idea there. lol.&lt;/p&gt;
+&lt;p&gt;Anywhoo, what am I going to do? Well, the obvious answer would be to fail at the challenge, which I&#39;m not going to do. Nay. I refuse to lose. Josh failed, but I will not. No, instead I think I&#39;m going to delve down into the root cause of my boredom: needing something new. I&#39;m going to go ahead and start that Xmonad challenge tomorrow like I&#39;ve been planning for ages. Maybe getting into something like that, which will be a challenge, will make me happy. I&#39;ve been too comfy in Qtile. If there is something sure to scratch my itch for a challenge it will be Xmonad and Haskell. Then again, maybe it will drive me away from Linux altogether. JK.&lt;/p&gt;
+&lt;p&gt;I&#39;m also going to do some distro testing on my laptop. That will be a bit of fun and will allow me to use some other distros without hopping on my main computer. Maybe make some videos on some immutable distros. I&#39;m getting more interested in Silverblue the more I read about it, and I want to try to create my own image. That could be really fun.&lt;/p&gt;
+&lt;p&gt;So, that&#39;s it for me this week. Having an identity crisis and wavering on my interest in Redcore. Thanks, everyone for sticking with me through my COVID weeks, I&#39;m seemingly back to normal except for some cold-like symptoms, so I should be back to posting regularly.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the website, you can get all of my blog posts by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I&#39;m Going to Learn Python</title>
+		<link href="https://thelinuxcast.org/posts/pythongoals/"/>
+		<updated>2023-04-04T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/pythongoals/</id>
+		<content type="html">&lt;p&gt;&lt;em&gt;Note: This was written ages ago, so any time references will be way off.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So, as I talked about in my goals post way back in January, I have decided to finally buckle down and learn how to code and I&#39;ve chosen Python as my first language.&lt;/p&gt;
+&lt;p&gt;Now, it is March, and I am finally getting started on that goal. Part of the reason it has taken so long is RL has just been kicking my ass since November with family health problems and other things going on. So I&#39;m just now getting to the point where I can spend some free time actually learning how to do something new.&lt;/p&gt;
+&lt;p&gt;The other reason, of course, is pure laziness. I always push off things I&#39;m unsure of, and to be honest, I&#39;m not sure if I&#39;ll be any good at this.&lt;/p&gt;
+&lt;p&gt;I&#39;ve already failed once.&lt;/p&gt;
+&lt;p&gt;Back in 2004, when I was selecting a major at Michigan State University (Go Green!), I decided that because I liked computers so much, I should choose computer science as my major. I lasted a full year and damn near flunked out. It took me a change of majors (History) and two semesters to get myself off of Academic Probation.&lt;/p&gt;
+&lt;p&gt;So, I have some anxiety when it comes to if I&#39;m even going to be able to learn how to code. There&#39;s a bit of a mental block there, so that is going to be something that I will have to get through in order to do this.&lt;/p&gt;
+&lt;p&gt;The question you might be asking is, why do it if you&#39;ve had so many problems. The answer is that there are things that I want to do. Scripts that I want to write. Programs that I want to create. I have a few ideas for big projects, and I can&#39;t do them right now with my very limited amount of experience with C (the only language I have some knowledge in).&lt;/p&gt;
+&lt;p&gt;So, I&#39;m buckling down and I plan on doing this. I&#39;ve had some struggles so far. The first one is that it is really hard to know what a good tutorial is without actually sitting through it. I think Mosh is going to be the first one I go through. He seems to really focus on doing this from a noob standpoint. Others seem to assume that I have some knowledge of coding, and those won&#39;t do me much good because I need to learn the jargon from the ground up.&lt;/p&gt;
+&lt;p&gt;You know, things like, what a string is, what an array is, and so on. I have some idea what those things are, but you can&#39;t do things when you only have some idea. You have to &lt;em&gt;know&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;That&#39;s the first hurdle I faced, finding a good tutorial. I&#39;ve also had to deal with naysayers who I&#39;ve talked about this with. People who are so set against Python that they&#39;ll get nasty about it. As much as the whole Arch and Gentoo fanboy community entertains me, the fanboys of certain coding languages actually scare me. These guys are very passionate about the languages that they love and just as passionate about the languages that they hate. It was so bad I decided to just nope out of the developer&#39;s discord I joined and go solo.&lt;/p&gt;
+&lt;p&gt;So, I have started. Tonight. I&#39;m about 5 minutes into Mosh&#39;s 6 Hour tutorial. I plan on doing 10 minutes a day or so. Not much, and maybe as I get more comfortable I will up that to a half hour, but for now, I&#39;m dipping my toes into it. Easing myself in, if you will.&lt;/p&gt;
+&lt;p&gt;We&#39;ll have to see how it goes. I doubt this will be my last blog post on this topic, so be prepared for that. I don&#39;t know if I&#39;ll do any videos on this. To be honest, I don&#39;t know how they&#39;ll do as it doesn&#39;t seem like the type of content my audience would like. But maybe I&#39;m wrong.&lt;/p&gt;
+&lt;p&gt;Anywhoo, I hope everyone has a great week. If you&#39;re reading this on the website, you can get my blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;. Also make sure you follow me over on &lt;a href=&quot;https://fosstodon.org/@thelinuxcast&quot;&gt;Mastodon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Qtile Is Effin&#39; Awesome</title>
+		<link href="https://thelinuxcast.org/posts/qtile/"/>
+		<updated>2023-03-06T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/qtile/</id>
+		<content type="html">&lt;p&gt;So, last week &lt;a href=&quot;https://thelinuxcast.org/posts/xmonad/&quot;&gt;I wrote&lt;/a&gt; about how I was commissioned to try xmonad for some time. I think, probably, y&#39;all found that I was not so...shall we say, looking forward to it. Xmonad isn&#39;t my favorite, and as I said in that blog post, me and that Window Manager have a history. So, is it at all surprising that I got sidetracked on the way to Xmonad?&lt;/p&gt;
+&lt;p&gt;No. Not it is not. LMAO.&lt;/p&gt;
+&lt;p&gt;When I couldn&#39;t immediately get Xmonad to install on Redcore, I gave up and decided that I was going to give qtile a try. This after talking to one of my fellow Linux YouTube Creators who has recently switched to Qtile using my config. I decided that it has been a fair bit since I used Qtile and that it was high time that I give it another go. It had nothing to do with procrastinating my eventual successful installation of Xmonad. Nay. Nothing at all.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/qtile.png&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/qtile.png&quot; alt=&quot;qtile&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So, I&#39;ve spent the last week using Qtile. It&#39;s wonderful, it really is. I always kind of forget how good it is because of my continued and eternal love for i3 Window Manager. While I&#39;m not as knowledgeable about Python as I am about the non-language that i3 is configured in, I know my way around Qtile a bit, and it has been a blast getting my config all spruced up after a few months of neglect.&lt;/p&gt;
+&lt;p&gt;I think maybe, some of my happiness over doing this is because I need to feel something new, what with my habitation of Redcore for the next 5 months or so (it&#39;s counting down!). I&#39;ll have another blog post about Redcore next week, but needless to say, while I don&#39;t hate it, I miss Fedora. So, hopping from one Window Manager to another has been my fix for all that.&lt;/p&gt;
+&lt;p&gt;Qtile is extensible enough that it has kept me busy in the off times. I&#39;ve added some widgets to my bar, created a few new things, and have started to work on a script so I can change between themes easily with rofi (similar to how I did with i3). It&#39;s been, as I said, a blast.&lt;/p&gt;
+&lt;p&gt;One thing I noticed, is that Qtile does scratchpads way better than i3. I don&#39;t think the last time I used Qtile, I really thought that was the case. It&#39;s not as if i3 has bad scratchpads, but I&#39;ve always thought they were good enough with some flaws. No other WM has ever matched up to DWM&#39;s scratchpads, so thinking about comparing i3 and Qtile&#39;s scratchpads never really occurred to me.&lt;/p&gt;
+&lt;p&gt;But, Qtile&#39;s are better. For one, it&#39;s slightly easier to dictate the size for scratchpads inside the config. i3 can do it fine, but it&#39;s just a little easier in Qtile (it can be done when you configure the scratchpad, not in a separate rule). Second, and this is the big one when you kill a scratchpad in i3, it goes away. In Qtile, it relaunches. In i3, you&#39;d have to restart i3 to get the scratchpad to relaunch. Joris even made his so that they could not be killed (or at least he tried, can&#39;t remember if he was successful or not). With Qtile, none of that matters, since they just pop back up if you kill them off.&lt;/p&gt;
+&lt;p&gt;i3 does win in one place, when it comes to scratchpads, though. When you pop a scratchpad out of the scratchpad space on i3, it&#39;s simple to pop it back in, in its current use state. In Qtile, that seems to be impossible. Once a scratchpad is no longer a scratchpad, it can&#39;t be made one again. That&#39;s not a huge deal, but it is a bummer given how good the system is otherwise.&lt;/p&gt;
+&lt;p&gt;Now to go back and count how many times I used the word scratchpad in the previous paragraphs. LOL.&lt;/p&gt;
+&lt;p&gt;Outside of the scratchpad thing, I love qtile&#39;s bar. While I wish that it was easier to put in my own scripts (that is apparently going to get easier in the next version), the built-in widgets that Qtile offers, are amazing. I love Polybar, and it remains my favorite bar just because I&#39;m most familiar with it, but Qtile&#39;s bar has taken the #2 spot. I don&#39;t care as much for the configuration of it, especially when dealing with multiple monitors, so it probably won&#39;t ever be my favorite, but it is still really, really good.&lt;/p&gt;
+&lt;p&gt;Finally, I like the way it does workspaces. You can move workspaces between monitors easily on i3, for sure, but the default way Qtile handles workspaces is wonderful. Once you get used to the idea of the workspace being fluid and moving between monitors, you really learn to love that workflow. It always takes some getting used to, but I think I always miss it for a bit when I go back to a Window Manager that has its workspaces or tags hard-wired onto a monitor.&lt;/p&gt;
+&lt;p&gt;So, yeah, Qtile. Not Xmonad. I did get Xmonad installed, finally, thanks to the Redcore developer who took care of some issues with one of Haskell&#39;s dependencies. But I have not booted into it yet. First, I&#39;m dreading it, but I&#39;m also just loving Qtile too much right now. So it will wait a few days or weeks until I feel the need to hop again.&lt;/p&gt;
+&lt;p&gt;If you&#39;re reading this on the website, you can get all of my blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;. Hope everyone has a wonderful week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Xmonad is Coming</title>
+		<link href="https://thelinuxcast.org/posts/xmonad/"/>
+		<updated>2023-02-28T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/xmonad/</id>
+		<content type="html">&lt;p&gt;I have a long and bloody history when it comes to the Xmonad window manager. I hate Haskell with a passion. Mostly, it&#39;s a me problem. There is nothing inherently wrong with Haskell or Xmonad, I just don&#39;t feel smart enough to actually use them. Every time I try, I get frustrated by them.&lt;/p&gt;
+&lt;p&gt;But, it&#39;s time to try them again. One of my upper-tier patrons has asked, and I have agreed to do so. I don&#39;t know yet how I&#39;m going to do it. I think it will start off as a side project on my laptop before it moves to my main machine, but I may change my mind.&lt;/p&gt;
+&lt;p&gt;So, I&#39;m trying Xmonad again. It&#39;s going to be something I try to do long term. I&#39;m not going to be giving it my full attention while the #6MonthLinuxChallenge is going on, so I don&#39;t expect to make many videos about it until this challenge is over, but if I&#39;m going to give it a real shot, might as well start soon.&lt;/p&gt;
+&lt;p&gt;We&#39;ll see how it goes. I&#39;ve tried it three times before to varying success. Usually, I have failed because of something that I just couldn&#39;t figure out. Usually, it&#39;s scratchpads. I did get it figured out once, but the Xmonad implementation is not great. Granted that wasn&#39;t a long exposure time to that feature and it&#39;s been at least a year since then, so maybe I&#39;ll do better this time.&lt;/p&gt;
+&lt;p&gt;And that&#39;s kind of the hope. That now that I&#39;m a little more comfortable with programming languages (C and Python), I may be able to finally get my head around Haskell enough at least to use Xmonad for a while.&lt;/p&gt;
+&lt;p&gt;I guess we&#39;ll see. This is a very short blog post this week. RL is kicking my ass, so this was a bit of a rush job. Hope everyone has a good week. If you&#39;re reading this on the website, you can get all of my blog posts along with an exclusive weekly podcast by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Redcore (And Gentoo) Scare Me</title>
+		<link href="https://thelinuxcast.org/posts/gentoisscary/"/>
+		<updated>2023-02-24T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/gentoisscary/</id>
+		<content type="html">&lt;p&gt;So, if you haven&#39;t been paying attention to the channel, you&#39;ll have missed that I started a challenge that has grown quite popular. I called it, creatively, The 6 Month Linux Challenge. The goal is to use a new distro for 6 months without hopping a single time on your main computer.&lt;/p&gt;
+&lt;p&gt;Being the idiot that I am, I let others choose for me. I ended up on Redcore Linux. For those not in the know, it is based on Gentoo of all things.&lt;/p&gt;
+&lt;p&gt;I&#39;ve talked about my first day already in a &lt;a href=&quot;https://www.youtube.com/watch?v=K12IijGXALc&quot;&gt;video&lt;/a&gt;, so I won&#39;t go into all of the details, but I wanted to talk a little more about it as I&#39;m now (as of writing this) three days in.&lt;/p&gt;
+&lt;p&gt;The one, over-arching thought I have, is that Gentoo is anxiety-inducing. Kind of like Arch was when I first got into Arch. There are so many stories of Arch being unstable and horrible when it comes to stability, and OH MY GOD! You&#39;re going to lose all of your data, and holy hell I need to run back to Ubuntu! Take a breath. Arch has a reputation for being like that, but as most who have used it have found out, it&#39;s not so bad once you learn what you&#39;re doing.&lt;/p&gt;
+&lt;p&gt;Gentoo has the same feeling, only it&#39;s way worse. I feel like I&#39;m constantly on the edge of breaking something. Most of that, probably, is me not knowing what the hell I&#39;m doing half the time. Did I say half? More like 90%. It isn&#39;t as if I&#39;m not learning my way, but it feels like there is so much on Gentoo that is just done differently that I feel like I&#39;ll never quite be comfortable with it all.&lt;/p&gt;
+&lt;p&gt;There are two things I&#39;ve taken away from all of this. First, despite the discomfort of feeling insecure in my knowledge of Gentoo, I am having loads of fun. I&#39;ve been looking forward to getting to my computer every day to see what I can learn. It has been a blast. The other thing is that Gentoo is really not meant for noobs. I know it seems to go without saying, but Redcore seems to be a distro that is trying to make Gentoo easier, and I don&#39;t think it does its users any favors. You have to know a lot about Gentoo and about Linux in general to make this work (and work well), and that&#39;s not really the type of audience that might look at distros like Redcore.&lt;/p&gt;
+&lt;p&gt;I wouldn&#39;t recommend Redcore to anyone who isn&#39;t also really interested in using Gentoo. In fact, I don&#39;t think I&#39;d recommend it to someone who has never &lt;em&gt;installed&lt;/em&gt; Gentoo. You really need to have some experience going in.&lt;/p&gt;
+&lt;p&gt;Maybe Sabayon and Calculate Linux are different, I don&#39;t know. I kind of look forward to finding out if those have a more &amp;quot;noob-friendly&amp;quot; feel. I doubt it. It&#39;s Gentoo, no matter how you paint it, and that requires some know-how.&lt;/p&gt;
+&lt;p&gt;Which is where I find myself in a hole. I know just enough about Gentoo to be dangerous, and that&#39;s what makes this both fun and horrifying. Every time I update or emerge a new package, I feel like I&#39;m going to ruin everything. I&#39;ve started taking daily backups of my computer to ensure I don&#39;t lose anything I would be sad to lose.&lt;/p&gt;
+&lt;p&gt;I&#39;m at day 4 now as I write this. Still basically the entire 6 months to go. I doubt this will be the last blog post I write about my Redcore/Gentoo adventures, so hold onto your butts, it&#39;s gonna be a ride.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the website, you can get all my blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Hate Web Browsers. There Are No Good Ones.</title>
+		<link href="https://thelinuxcast.org/posts/browser%20anxiety/"/>
+		<updated>2023-02-14T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/browser%20anxiety/</id>
+		<content type="html">&lt;p&gt;I talked about this a bit in a recent video, but I&#39;ve been thinking about my browser situation. A lot of the stuff Mozilla does pisses me off, and the new extension menu thing is one of them.&lt;/p&gt;
+&lt;p&gt;I know it&#39;s dumb to complain about, and I know with some work it can be disabled, but I hate it with a passion. Not only did it break userChrome (at least mine), but it just adds several extra clicks if you want to get to an extension that you didn&#39;t have pinned before or it seems to.&lt;/p&gt;
+&lt;p&gt;It&#39;s dumb and I continue to complain about it.&lt;/p&gt;
+&lt;p&gt;So I&#39;ve been thinking about switching browsers. I made a video not too long ago where I thought about running a dual browser setup, but when several people mentioned Firefox containers, I got hooked on those and abandoned the idea of two browsers.&lt;/p&gt;
+&lt;p&gt;Now I think I may want to leave behind Firefox, but it&#39;s really effin&#39; hard. Two things hold me back: Simple Tab Groups and Firefox Containers.&lt;/p&gt;
+&lt;p&gt;STG is one of those plugins that I just can&#39;t live without. Every browser has tab groups of some kind, but most of them shove the groups up into the tab bar and keep them there, even if they are compressed in some fashion. STG puts the groups in a dropdown menu, and that&#39;s awesome. Add onto that, you get customizable keybindings for rotating between groups, and it&#39;s just awesome.&lt;/p&gt;
+&lt;p&gt;With Firefox containers, as I explained, it keeps all my stuff separated and makes it so Google et al only tracks me when I want them to. It has done wonders for my privacy, or at least my sense of privacy.&lt;/p&gt;
+&lt;p&gt;The issue is, no browser does Tab Groups as well as STG, and the alternative to containers on other browsers seem to be profiles, which are either tied to an account or not easy to switch between or both. None work as well as Firefox Containers.&lt;/p&gt;
+&lt;p&gt;Those two features have become essential to my workflow, and it is hard if not impossible to leave them behind.&lt;/p&gt;
+&lt;p&gt;So my browser angst continues. I&#39;m going to disable the extension menu and see how long that lasts. The good news is that Mozilla doesn&#39;t always nerf their about:config options quickly, so a workaround to get rid of the menu may last years. Then I can bring back my userChrome and I can be happy again for a while.&lt;/p&gt;
+&lt;p&gt;But I&#39;m going to keep trying other browsers. I tried Vivaldi, and despite what their fans say, it&#39;s garbage. Sure, it has loads of customizability, but I found it slow and the &amp;quot;groups&amp;quot; functionality (they call them stacks), is not good at all. I didn&#39;t stick around long enough to try the profiles option, but I doubt it is as good as containers.&lt;/p&gt;
+&lt;p&gt;This is the problem with the browser market all being based on Chromium. All the browsers are exactly the same. There are no options if you want something different. I have considered Edge. I know, it&#39;s from Microsoft and they&#39;re the devil, but I know that Edge does do groups fairly well and maybe their containers alternative is good, I&#39;d have to see. But it is from the Red Devil, so it gives me pause. Besides, I know they&#39;ve added a ton of bloat to that browser which makes it even less appealing.&lt;/p&gt;
+&lt;p&gt;Then there are the other half dozen Chromium-based browsers. All are basically clones of each other, though there are some open-source options. Maybe I give UnGoogled Chromium another try. I know I don&#39;t care for Chome&#39;s groups, but maybe I can work around it. Brave is a no go, even with turning the Crypto stuff off, I don&#39;t care for that company.&lt;/p&gt;
+&lt;p&gt;It&#39;s really hard. What I really want, what would really be awesome, is for Mozilla to stop pissing me off with dumb ass features. Why can&#39;t they just be good? Firefox is mostly exactly what I want with a browser, but Mozilla continues to do small things that just make me not want to use Firefox anymore.&lt;/p&gt;
+&lt;p&gt;I guess I need to learn to code so I can build my own browser. LOL.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the website, you can get this early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;, you can also get a weekly Patron exclusive podcast!&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I&#39;m Missing My Window Managers</title>
+		<link href="https://thelinuxcast.org/posts/I%20Miss%20Window%20Managers/"/>
+		<updated>2023-02-07T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/I%20Miss%20Window%20Managers/</id>
+		<content type="html">&lt;p&gt;So I&#39;ve been using XFCE for two weeks now (when I wrote this post a week ago). Overall, it has been a &lt;em&gt;wonderful&lt;/em&gt; experience. Very satisfying and very educational.&lt;/p&gt;
+&lt;p&gt;But the workflow is entirely different than what I&#39;m used to. Not different as in bad, but different as in, it&#39;s taken me a while to get used to.&lt;/p&gt;
+&lt;p&gt;And I have gotten used to it. I&#39;ve gotten used to knowing where my windows are in the pile of windows that I always have. I&#39;ve gotten used to only using one workspace. I&#39;ve gotten used to having windows in different places than what I&#39;m used to because I&#39;m always moving them around so I can see other windows.&lt;/p&gt;
+&lt;p&gt;It&#39;s been fun if I&#39;m being honest. It&#39;s so completely different than the workflow you experience when using a tiling window manager, that I&#39;ve found myself entertained rather than annoyed.&lt;/p&gt;
+&lt;p&gt;But now that I&#39;m further along in this experiment, I&#39;ve been missing my tiling window manager. I&#39;ve been talking to some friends who use window managers, and my jealousy has been increasing over the last few days. Every time I see a cool i3 or DWM post on r/unixporn, I think about how wonderful it&#39;s going to be to use a window manager once again.&lt;/p&gt;
+&lt;p&gt;And it&#39;s not even as if XFCE is bad or I&#39;m hating it. As I said, I love XFCE and I&#39;ve found myself having a lot of fun using it and even liking this workflow. I&#39;ve been productive using it, so it&#39;s not as if I lost productivity when switching.&lt;/p&gt;
+&lt;p&gt;But I miss tiling. A lot. And it&#39;s not just seeing others use it, I miss the customization and organization that you get with a window manager. As I said either in a patron-only pod or in a blog post, I have found myself relying on GUIs a lot more, and that makes me feel like I&#39;ve lost my inner nerd. It&#39;s dumb, I know, but it&#39;s the way I feel. Granted, I am writing this in a terminal (vim ftw), but I find myself doing this less and less. Even with work, I find myself just working in Marktext.&lt;/p&gt;
+&lt;p&gt;There&#39;s nothing wrong with using a GUI all the time, at least that&#39;s what I say on the channel, but I like using the terminal, and for whatever reason, using XFCE has had me use GUIs more.&lt;/p&gt;
+&lt;p&gt;I&#39;ve talked about all that before, but in relation to WMs, that&#39;s all a part of why I want to go back.&lt;/p&gt;
+&lt;p&gt;So, what am I going to do? Well, I&#39;m going to cheat. They say, &amp;quot;if you ain&#39;t cheatin&#39; you ain&#39;t tryin&#39;&amp;quot;. So, I&#39;m going to look into making i3 or bswpm my window manager &lt;em&gt;inside&lt;/em&gt; XFCE. Meld the two together and get the best of both worlds.&lt;/p&gt;
+&lt;p&gt;If this works out, this could be a long-term solution, because there are things that work better in a Desktop Environment (polkit just to name one). If I can get a tiling experience inside of XFCE (I&#39;m told that it is pretty easy) then I should find myself very happy.&lt;/p&gt;
+&lt;p&gt;I guess we&#39;ll see. That will be my task for the next couple of days. I know I wanted to use pure XFCE for 2 months, but I think I&#39;ll be more likely to finish this experiment if I go this route. As I said, I guess we&#39;ll see.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week! If you&#39;re reading this on the blog, you can get this content along with a brand new weekly Patron exclusive podcast by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Missing Scratchpads</title>
+		<link href="https://thelinuxcast.org/posts/NoScratchpads/"/>
+		<updated>2023-02-01T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/NoScratchpads/</id>
+		<content type="html">&lt;p&gt;So as I&#39;ve been talking about both in the Patron Exclusive Pod (available to all tiers) and on the channel, I&#39;ve switched to XFCE. My plan is still to be on XFCE for 2 months (As I write this, I&#39;m only a week in).&lt;/p&gt;
+&lt;p&gt;I do miss my window managers, that&#39;s for sure. I&#39;m going to be itching to go back once this experiment is over, I have a feeling.&lt;/p&gt;
+&lt;p&gt;But there is one thing that I miss more than any other and that is scratchpads. Now, I do have a dropdown terminal (I use Tilix, and that has a quake mode, which is pretty nice), but it&#39;s just not the same.&lt;/p&gt;
+&lt;p&gt;When I&#39;m on i3wm or whatever, I always have about six scratchpads that I open up many times a day. I have newsboat there, I have pulsemixer, I have ncmpcpp or whatever it&#39;s called, I have ranger, and couple extra empty terminals. All of them are available via a separate keybinding for ready and easy use. It&#39;s awesome.&lt;/p&gt;
+&lt;p&gt;On XFCE, none of that is here. Not that&#39;s not possible, because I&#39;m sure that with some effort I could replicate that functionality (in fact, I&#39;m sure I could, and I may do), but it&#39;s just something that isn&#39;t default or something that I think most people would even consider unless they&#39;ve used a window manager before.&lt;/p&gt;
+&lt;p&gt;And that brings me to Workspaces. I mentioned this on my patron-only pod, but I don&#39;t use workspaces nearly as much on XFCE as I did when in a window manager. One of the reasons why is that windows pile up and don&#39;t tile by default. So I don&#39;t have to deal with smaller and smaller windows, and can just leave a whole pile of them on one workspace and alt-tab to the one I need. Another reason why is the absolutely crap way XFCE (and other DEs) handle workspaces with multiple monitors. They treat both monitors as a single workspace, so when you change workspaces, both monitors change. You can&#39;t get them to be independent. It just feels inefficient and against everything I know and love when it comes to workspaces.&lt;/p&gt;
+&lt;p&gt;Honestly, the mess of it all is driving me batty. Right now as I look at it, I have seven windows on my second monitor, all piled on top of one another. I can only see the top two. It feels so...trashy. And completely inefficient. Obviously, this is not an XFCE problem, but it is a DE problem, and it&#39;s a big one. The workflow here is just anathema to the way I have worked for the majority of the last three years.&lt;/p&gt;
+&lt;p&gt;So, those are the two big problems. Scratchpads are probably something I will solve on my own because I do miss them enough that spending the time to figure all that out makes sense. The workspace thing is something that will continue to just drive me nuts until I eventually say eff it and either install i3 and use it with XFCE or I abandon XFCE completely. Who knows which way that will go.&lt;/p&gt;
+&lt;p&gt;I hope everyone has a nice week. If you&#39;re reading this on the website, you can get all of my blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Pareon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Google Pixel 7 Pro Review</title>
+		<link href="https://thelinuxcast.org/posts/Pixel7ProReview/"/>
+		<updated>2023-01-22T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/Pixel7ProReview/</id>
+		<content type="html">&lt;p&gt;I have been on a bit of an adventure when it comes to my mobile phone. For the last year, I&#39;ve been on the Galaxy S22+, which I purchased used off of Amazon (or refurbished). It served me well, but as the year went on, the battery life got progressively worse. So bad, in fact, that it would only last about 2 hours on a charge.&lt;/p&gt;
+&lt;p&gt;So, I decided that I need to upgrade. Yes, I could have paid for a battery replacement, and I still might do so (I still have it), but I like new stuff, so I decided that I&#39;d get a new phone. For the last few years, I have prided myself on always buying used or refurbished devices. It makes me feel a bit better about e-waste and such. This time, I splurged and decided to buy new.&lt;/p&gt;
+&lt;p&gt;My first attempt at this was the OnePlus 10 Pro. That device ended up being so buggy that I had to send it back. I wanted to like it, but I couldn&#39;t deal with the bugs and the slow software updates to the US were a definite problem.&lt;/p&gt;
+&lt;p&gt;So, I sent that back and pondered for a while. I thought about going back to the iPhone but I really have lost all taste for iOS, so that was a no-go. I then decided that I&#39;d go with a Pixel after talking about it with friends on &lt;a href=&quot;https://fosstodon.org/@thelinuxcast&quot;&gt;Mastodon&lt;/a&gt;. I&#39;ve never had a Pixel before, always being scared off by their constant hardware and software issues in past generations. But this generation seemed to be mostly free of that nonsense (This was before I found out that the camera lens was spontaneously exploding), so I decided to give it a go.&lt;/p&gt;
+&lt;p&gt;I bought the Pixel 7 Pro because I love big-screen phones, and I&#39;ve been using it for the last several weeks. Here is my brief review.&lt;/p&gt;
+&lt;h1&gt;Hardware&lt;/h1&gt;
+&lt;p&gt;The hardware on the Pixel is not for everyone, that&#39;s for sure. I hated it last year, which is why I didn&#39;t get it when I decided to go back to Android and chose the Galaxy S22+. I honestly wasn&#39;t sure that I&#39;d like it any better this year, but I changed my mind. Most phones are getting taller and taller and staying the same width. I don&#39;t mind taller phones, but I also want something that feels wider in my hand. The Pixel 7 Pro does this, and I&#39;m very happy about it. It feels like it fits my man hands, and it&#39;s the first Android phone that has ever done so.&lt;/p&gt;
+&lt;p&gt;The cameras are awesome, but I&#39;m not a pixel peeper, so I had no problems with the cameras on my phone four or five years ago. Are they better than that, yes. But I don&#39;t really notice all that much. I know the photography nerds out there are shouting at me, but I&#39;m not one of you. I just don&#39;t have an interest in it, I&#39;m afraid.&lt;/p&gt;
+&lt;p&gt;The screen is big and bright and the refresh rate is nice (though I did end up turning it back down to 60hz, which I&#39;ll talk about later). It is slightly curved along the sides, which bugs the crap out of me. Not that it doesn&#39;t look great, but the accidental touches are something that phone manufacturers haven&#39;t ever really figured out. I still end up having it accidentally thinking I&#39;m touching the screen when I&#39;m just scrolling along. It&#39;s annoying but doesn&#39;t happen so often that it&#39;s unbearable.&lt;/p&gt;
+&lt;p&gt;The under-screen fingerprint sensor is fast and mostly responsive, though it does have a problem with my right thumb despite me reteaching it several times (the S22+ had the same problem, so I think my thumb is the issue). The rest of my figures that I&#39;ve trained work fine.&lt;/p&gt;
+&lt;p&gt;One of the biggest issues I have with the hardware is that the volume and power buttons are really, really low on the side, and I always press the power button when I meant to go to the volume button. That&#39;s annoying and could have been solved if someone had actually tested the device beforehand. Why phone manufacturers have to have the volume buttons and the power button on the same side is beyond me. There&#39;s a whole other side there and it feels lonely. Do better Google.&lt;/p&gt;
+&lt;p&gt;The last thing I should talk about is battery life. It&#39;s horrible. I mean like really bad. Not as bad as the Samsung I just left, but for a new device, it&#39;s really disappointing. I can get through 4PM on a single charge before I have to put it on the charger. That&#39;s not okay. I always have around six to ten more hours of my day before I can go to sleep, so a second charge is probably always going to be the case, but I&#39;d expect a little more than what I&#39;ve gotten so far.&lt;/p&gt;
+&lt;p&gt;So I turned off the high refresh rate. I thought that would help, but it honestly made no difference so I turned it back on. I also tried to use the device at 1080p instead of 1440p, but that made everything so big on the screen that it was basically unusable. So, what I ended up doing was getting a case that has a MagSafe-like magnet on the back and a MagSafe charger. I now can charge the phone while I&#39;m at my desk. Not what I want to do, but works okay.&lt;/p&gt;
+&lt;h1&gt;Software&lt;/h1&gt;
+&lt;p&gt;There is always a lot of talk about &amp;quot;Stock Android&amp;quot; and how close the Pixel is to that ideal. I&#39;ve always wondered what the big deal was because honestly, I loved OneUI. The transparency and the great work Samsung has done in making it easy to use huge phones with one hand were really appreciated and made the S22+ a pleasure to use. I could have done without all the un-uninstallable bloatware, but whatever.&lt;/p&gt;
+&lt;p&gt;The software on the Pixel 7 Pro is fine. It has some things I like, and some things I think are butt ugly. Let&#39;s start off with the things I like.&lt;/p&gt;
+&lt;h2&gt;Material You&lt;/h2&gt;
+&lt;p&gt;I like the adaptive color scheme. I know it&#39;s not a favorite of everyone, but having the colors change when I change the wallpaper, is nice. I wish it did a better job of actually choosing colors that are a part of the wallpaper, but for the most part, it&#39;s still pleasing. I also like that more and more apps are taking this on, so it feels more like the entire ecosystem is changing a bit whenever I change my wall.&lt;/p&gt;
+&lt;h2&gt;Multitasking View&lt;/h2&gt;
+&lt;p&gt;This is nice. Google has added several awesome features to the multitasking view that make it more useful. You can copy text right from that view, take a screenshot without going into an app, copy images, and so on. It&#39;s very nice.&lt;/p&gt;
+&lt;h2&gt;Quick Settings Menu&lt;/h2&gt;
+&lt;p&gt;It&#39;s not as good as Samsung&#39;s but it works fine and I like the design of it for the most part. I do think the buttons are too big here, they could have more settings on the first pull-down if the buttons weren&#39;t so big.&lt;/p&gt;
+&lt;p&gt;Now let&#39;s talk about the rest and the things I don&#39;t like.&lt;/p&gt;
+&lt;h2&gt;Lack of Transparency&lt;/h2&gt;
+&lt;p&gt;I know this isn&#39;t a huge deal, but coming from the S22+, where transparency is all over the place, the lack of any transparency at all in the notification shade and elsewhere was really jarring. It makes it feel so outdated and kind of fugly, IMO. It just looks so much better on the S22+ that I almost sent the Pixel back. It just looks so bad.&lt;/p&gt;
+&lt;p&gt;The big buttons are also very odd. As I mentioned before, it&#39;d help in the quick settings menu if the buttons were smaller. You&#39;d get more settings on a page, which means that you could get to your quick setting much faster.&lt;/p&gt;
+&lt;h2&gt;Screen Touch Sensitivity&lt;/h2&gt;
+&lt;p&gt;I&#39;m putting this here because I think it&#39;s a software problem, but it could be hardware related, I don&#39;t know. Basically, when you do any swiping on the screen, it takes such an exaggerated motion to get the phone to actually follow through with it. I don&#39;t know how better to explain it other than sometimes when you swipe left or right, it won&#39;t actually follow through with the motion. It&#39;s very odd. It does have something to do with the haptic feedback because if you turn that off, the problem goes away. Hopefully, they fix that.&lt;/p&gt;
+&lt;h1&gt;Software Updates&lt;/h1&gt;
+&lt;p&gt;This is one area that I&#39;m really excited about. Every other Android is so far behind what Google offers in terms of Android versions and it takes them so long to catch up. It&#39;s ridiculous. I love that I&#39;ll get the new stuff from Google on Day 1. It also comes with the risk of bugs, but I think that will be okay. I&#39;ll see if I still feel that way in a year.&lt;/p&gt;
+&lt;h1&gt;Conclusions&lt;/h1&gt;
+&lt;p&gt;I love this phone. I don&#39;t care for the software as much as I thought I would, but the hardware is so good and feels so nice in the hand that I can overlook my dislike of the look and feel of the software. Add on that I found that MagSafe is awesome and works great on an Android with a MagSafe case, and I&#39;m finding that the Pixel is still my favorite phone that I&#39;ve had in many years. If they can make the software even just a little better, I&#39;d be so much happier.&lt;/p&gt;
+&lt;p&gt;I hope everyone has a great week. If you&#39;re reading this on the website, you can get blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Goals For 2023</title>
+		<link href="https://thelinuxcast.org/posts/goals/"/>
+		<updated>2023-01-12T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/goals/</id>
+		<content type="html">&lt;p&gt;Happy New Year.&lt;/p&gt;
+&lt;p&gt;I know it has been a while since my last blog post, so sorry about that, but the holidays and RL were happening, so it just kind of fell by the wayside. Blogging weekly is something I hope to get back into this year.&lt;/p&gt;
+&lt;p&gt;I hope everyone had a great holiday season. Mine was quite good. Spent a lot of time with family, which makes all the headaches worth it for sure.&lt;/p&gt;
+&lt;p&gt;Now that we&#39;re entering a new year, I wanted to spend some time thinking about my goals professionally and personally and for YouTube. I separate out YouTube because it&#39;s still a hobby but it also feels like a job since I make some money doing it. It&#39;s kind of an odd place to be in, but it works out okay. Today I want to talk a bit about my goals for the channel this year.&lt;/p&gt;
+&lt;h1&gt;A Video A Day Keeps the Algorithm Happy&lt;/h1&gt;
+&lt;p&gt;My plan for this year is ambitious: one video every single day of the year. I&#39;ve had a good streak going like this once before (right when I started the channel) but it fell by the wayside. It took a long time for me to be okay with taking days off, but eventually, I realized that the channel would still be here if I took a day off.&lt;/p&gt;
+&lt;p&gt;But I like doing videos every day, so I&#39;m going to give that a try. To do it, I&#39;ll need to get ahead, because I will still want some days off. My goal is to get significantly ahead over the next month so that I can always have videos on deck even if I don&#39;t feel like recording a new one.&lt;/p&gt;
+&lt;p&gt;The biggest issue is that I&#39;m awful at getting ahead. I&#39;ve tried so many times, and I&#39;ll get ahead for a few days, and then I&#39;ll just stop making videos and the cache will go away. That&#39;s going to be something to avoid this time if I want to do this. I guess we&#39;ll see how it goes.&lt;/p&gt;
+&lt;p&gt;My next goal is to start to change my content just a bit. I do too many frilly, no-substance, videos. I like my rants and such, and those won&#39;t go away, but I want to do some more stuff with substance. Tutorials, in-depth guides, maybe a few interviews, self-hosting stuff, and a little more on security and privacy, things like that. I&#39;m also going to be learning Python this year, so maybe I&#39;ll do some programming videos as I progress, I don&#39;t know. I just know that I need to broaden my horizons a lot since some of my content lately has felt like reruns to me. I can bitch about RTFM-bros and how much I like #Fedora only so often before it just gets stale.&lt;/p&gt;
+&lt;p&gt;Next, I want to blog more, so expect that to happen. I&#39;m planning on at least once a week, but more likely I&#39;ll do two a week. Patrons will get all of these early. I will likely blog about many topics, not just Linux, but some general tech stuff too, so that should be fun.&lt;/p&gt;
+&lt;p&gt;I&#39;m also going to be doing a weekly Patron/Supporter-only podcast starting this week. It will be just a few minutes of me talking about something that interested me or caught my eye. The first episode of that should be out on Wednesday or thereabouts.&lt;/p&gt;
+&lt;p&gt;Finally, I&#39;m going to be starting up my weekly live streams again. Probably Sundays around 8PM ET. The first one I think will be tonight, so that should be fun. I do need to think about topics for those, though, because I can&#39;t just rice every single stream. As much as I really want to, of course.&lt;/p&gt;
+&lt;p&gt;I hope that 2023 finds all of you well. I don&#39;t say it here often enough, but I thank each and every one of you for your support this last year and going forward. It truly means the world to me, and I can&#39;t thank you enough. As I say at the end of every video, you guys are awesome.&lt;/p&gt;
+&lt;p&gt;Hope you have a safe and happy New Year,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+&lt;p&gt;If you read this on the website, you can get posts like this early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Thoughts On NaNoWriMo 2022</title>
+		<link href="https://thelinuxcast.org/posts/NaNoWriMo/"/>
+		<updated>2022-12-09T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/NaNoWriMo/</id>
+		<content type="html">&lt;p&gt;So, I&#39;m going to talk about writing today. I know it&#39;s not something that everyone is interested in, so I&#39;ll just keep my thoughts constrained to a blog post instead of making a video about it.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been participating in NaNoWriMo since 2012. It is hard to believe that it has been 10 years, but it has. It is one of the events that I look forward to every year. For those of you who don&#39;t know, NaNoWriMo is National Novel Writing Month, though I think that it has become international at this point. The goal is to write 50,000 words during November. This is the average size of a small novel.&lt;/p&gt;
+&lt;p&gt;As someone who writes for a living (though I mostly edit now, I suppose), I can tell you that 50,000 words of fiction is much harder to write than 50,000 words of non-fiction. Something about it being made up just makes it more difficult, more taxing.&lt;/p&gt;
+&lt;p&gt;I&#39;ve only ever won NaNo twice (you win if you get to 50K). I won this year for the second time.&lt;/p&gt;
+&lt;p&gt;I always start off the month of November gung ho, with grand plans to torture my characters into submission. Some years, I do better than others. For example, there was a three-year span where I only wrote about 5k words the entire month because I kept changing my ideas. I&#39;m mostly a pantser (someone who doesn&#39;t plan their stories but just writes it as it comes), which means that often if I try a story and it turns out to be a horrible idea, then I move on to another one. Some years, I try several ideas.&lt;/p&gt;
+&lt;p&gt;In other years, I get about halfway through the goal, and then I just burn out. These are the years, usually, where I will write like 10k in the first day or two and then it just peters off until I abandon NaNo for that year.&lt;/p&gt;
+&lt;p&gt;The point is, I know many people kind of scoff at the idea of NaNoWriMo. They don&#39;t understand or have no interest in it. I get that. I have no delusions about any of my work ever getting published (in fact, since I mostly write fanfiction, I know it won&#39;t get professionally published). Some people go into NaNo with the goal of writing something that will make them famous. Not me. I write for fun. Some years, when the words are flowing (like this year), it&#39;s amazing fun to take a story from a seed of an idea to something large and glorious. Others, when you&#39;re struggling to even put 10 words down on the page, can seem like torture.&lt;/p&gt;
+&lt;p&gt;I write something non-work related every single day, but my biggest month is always November. I like to write, it is something I&#39;ve enjoyed since I was in middle school and wrote a 100-page novella about the President of the United States and his dating woes (I was in eighth grade with all the problems eighth-graders have with girls, so of course, my main character, the most powerful man in the world, had the same teenage angst-ridden moments, the horror). Boy, was my 8th Grade English teacher shocked when she got that paper (it was supposed to be 10 pages worth of fiction).&lt;/p&gt;
+&lt;p&gt;There is something about writing for pleasure that just brings out the best in me. I don&#39;t know if I&#39;m even any good at it, but I don&#39;t care. It&#39;s fun and it makes me feel better about everything else that goes on in my life. I think it&#39;s that way for most people who have hobbies. They&#39;re escapes from the mundane tragedies of life. How poetic, Matt. Mundane tragedies. Sounds like a Guns N Roses album title.&lt;/p&gt;
+&lt;p&gt;Meandered there a bit, didn&#39;t I? LOL.&lt;/p&gt;
+&lt;p&gt;Anyhoo, NaNoWriMo is now ever. I got to 50k this year, and I&#39;m quite happy with what I wrote, though it&#39;s an epic story and is nowhere near finished. But it was very fun and I am already looking forward to next year. (I may do Camp NaNo in April, that&#39;s an event where the goal is 25k). Should be fun. It almost always is.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the blog, you can get these posts along with the occasional video earl by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I used Dvorak for a Week(ish)</title>
+		<link href="https://thelinuxcast.org/posts/dvorak/"/>
+		<updated>2022-11-08T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/dvorak/</id>
+		<content type="html">&lt;p&gt;If you managed to catch this last week&#39;s pod, you know that Tyler was challenged to use Dvorak for two weeks. As the friend I am, I decided that I would take up that challenge alongside him. The one thing Tyler has at least discovered about this is that I&#39;m a crappy cheerleader. Also, not much of a friend, since I abandoned him 6 days in.&lt;/p&gt;
+&lt;p&gt;But you know how that goes. LOL.&lt;/p&gt;
+&lt;p&gt;Anyway, I did switch to Dvorak for six days. And I have some thoughts, both about the keyboard layout itself and the process for switching away from your main everyday layout (mine is normally QWERTY). So let&#39;s get to it.&lt;/p&gt;
+&lt;p&gt;First, thoughts on Dvorak itself. I actually kind of like it. During my six days with it, I got up to around 55 words per minute, which for just a few days is spectacular. I definitely learned it better than I did colemak, which I used for several weeks last year. Part of that success is that all of the most popular letters are on the home row. It made it really easy to learn words with those letters because your fingers hardly move around at all. It&#39;s very nice. And even lesser-used letters aren&#39;t that hard to get to or learn.&lt;/p&gt;
+&lt;p&gt;There were a few problem keys. The major punctuation is all moved to the other side of the keyboard and to the top. So . and , are all in very odd places. It took some getting used to, but I actually, again, ended up liking it. I can see how it would be very useful to have those keys up top where they are easier to reach than below your right hand like normal.&lt;/p&gt;
+&lt;p&gt;The thing that tripped me up, and which ultimately led to me going back to qwerty, is that the hard-coded shortcut keys for cut, copy, paste, save, and so on are all in completely different places. I tweeted about this and was reprimanded by some that I just needed to be more of a &amp;quot;touch typist&amp;quot; and learn to use the right modifier keys (ctrl mainly). I have arthritis in my right hand and it makes it hard for my hand to travel down to those keys. So, ctrl+s and ctrl+z and so on became two-handed operations. It was too hard to get used to, it just broke me out of any momentum I gained. I hit ctrl+s approximately 100 times a day if not more. I couldn&#39;t get used to using two hands to do it.&lt;/p&gt;
+&lt;p&gt;Josh suggested that I remap that keybinding with VIA, and I tried, but it just wasn&#39;t the same.&lt;/p&gt;
+&lt;p&gt;If I gave it like a month and had nothing else left to do in my life, no writing whatsoever, maybe I could have gotten past that final hurdle. But I write for a living. I guess I should say I edit for a living now as that is mostly what I do, but still. I sit in front of a computer and read and write and edit tens of thousands of words each day. So, I had to go back to qwerty.&lt;/p&gt;
+&lt;p&gt;That all being said, I did enjoy my experience and I may try again someday. Learning how to type with a new layout is frustrating beyond all belief, but it is kind of fun, and I have to say, it makes me a better typist when I go back to qwerty. The one thing you have to do when you switch layouts is you have to &lt;em&gt;think&lt;/em&gt; about how to press each key, which finger to use, and so on. It&#39;s not something you do with qwerty or whatever your main layout is because it has become second nature. Switching to another layout has gotten me to think about how I type in my main layout more. I realize that I don&#39;t use all of my fingers when I type normally and that I&#39;m not on the traditional home keys all the time. I tend to have four fingers on hjkl instead of jkl; like you&#39;re supposed to. F@#k you vim, you&#39;ve ruined everything.&lt;/p&gt;
+&lt;p&gt;I also realize that I am not an accurate typist in qwerty. I tend to type really fast and ignore the typos until the end. Switching to another layout has made me more accurate in qwerty simply because again, I&#39;m paying more attention to how my fingers are flying across the board.&lt;/p&gt;
+&lt;p&gt;This experience has been overall a very good one for me, despite me having gone back to qwerty so fast. It has also made me think that I might give Colemak another try. That doesn&#39;t have the same issues with the hard-coded bindings that Dvorak has, since they&#39;re mostly in the same spots. So maybe I&#39;ll give that a try.&lt;/p&gt;
+&lt;p&gt;The other thing that I wanted to talk about in regards to this switch and switch back, is that switching is kind of hard for other reasons than just learning where the letters are in your new layout. You have to relearn where your bindings are or, worse, you have to change the bindings. The vim keys, for example, move all over the damn place in Dvorak, and that&#39;s a problem for those who use vim. You can change those, of course, inside vim, but then you have to deal with those bindings when you are using a standard version of vim. Window manager bindings are also another problem. I ended up not making any changes, and just relearning the location of my previous bindings, but it took time and if I were to stick with any new layout, I&#39;d definitely go through and redo all my bindings so that they made sense. Maybe something I should do with qwerty too since they don&#39;t make sense as is anyway.&lt;/p&gt;
+&lt;p&gt;So those are my thoughts. I hope everyone has a great week. If you&#39;re reading this on the website, you can get early access to my blog posts and the occasional video by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Waiting For Everything to Go Wrong</title>
+		<link href="https://thelinuxcast.org/posts/fedora/"/>
+		<updated>2022-10-20T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/fedora/</id>
+		<content type="html">&lt;p&gt;Four months with Fedora. I think part of my reason for writing this post and making as many videos about Fedora as I have in the last four months is that part of me wants to prove the nay-sayers wrong. See, I&#39;m still here. I didn&#39;t distro hop.&lt;/p&gt;
+&lt;p&gt;But, that&#39;s only a small part. The rest of it is that Fedora has just been so good. I have had a lot of luck when it comes to Linux. I don&#39;t think any of that luck is given to me because of some awesome knowledge of Linux. I&#39;m a complete Linux noob for the most part, especially when compared to some people. So no, I&#39;m not smarter than anyone else when it comes to Linux. But, as I say, I&#39;ve had good luck with Linux. I&#39;ve had my issues, but for the most part, when I distrohop, it&#39;s because I&#39;m bored with a distro, not because of some fatal flaw.&lt;/p&gt;
+&lt;p&gt;All that being said, Fedora remains the single best experience I&#39;ve ever had on Linux. From installation to software selection, it has been spectacular. And stable beyond all my imagining. I thought that it&#39;d be kinda flaky because of its experimental nature. But it really hasn&#39;t.&lt;/p&gt;
+&lt;p&gt;And that all leads me up to the point of today&#39;s post: I&#39;m waiting for the other shoe to drop, as they say. Every time I do an update, I expect my computer not to reboot or for something to go catastrophically wrong. With Arch, I was always aware that an update could come along and bork my computer. I was prepared for it, expected it even. It was just the way of doing business. I think most Arch users have that in the back of their heads when they update. Maybe not to the extent that I did, after all, I&#39;m a huge cynic.&lt;/p&gt;
+&lt;p&gt;On Fedora, however, it&#39;s been so good (and for so long, even if 4 months isn&#39;t that long), that I&#39;m getting complacent. And that complacency has led to me being a fair bit paranoid. More than normal anyways. &amp;quot;When is it going to break&amp;quot; has become a mantra for me, I guess. The longer I go with Fedora, the more sure I am that eventually, my computer is going to puke its guts out.&lt;/p&gt;
+&lt;p&gt;Will it happen? I&#39;m convinced that it will. But maybe I&#39;ll get lucky.&lt;/p&gt;
+&lt;p&gt;Fedora is a wonderful distro. I want so badly for this to be it. My distro. And it feels that way right now. But with them doing nonsense with video codecs and with the way they love to experiment with Fedora (it is, after all, its purpose), I don&#39;t know how long it will feel like that. And &lt;em&gt;that&#39;s&lt;/em&gt; what&#39;s keeping me on my toes the most. That idea that sometime in the future, the Fedora devs will decide we need something new on Linux (maybe SystemD is too clunky) and decide to redo something, and my beloved Fedora will be no more.&lt;/p&gt;
+&lt;p&gt;I&#39;m a fanboy who expects the worse. It&#39;s an odd position to be in, to be sure.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a wonderful week. If you&#39;re reading this on the website, you can get these posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Keychron Q1 Version 2 Review</title>
+		<link href="https://thelinuxcast.org/posts/q1review/"/>
+		<updated>2022-10-03T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/q1review/</id>
+		<content type="html">&lt;p&gt;Anyone who has followed me for any amount of time knows that I&#39;m a keyboard nerd. I collect mechanical keyboards, and while I don&#39;t go crazy like some people in this space, I have more keyboards than I should.&lt;/p&gt;
+&lt;p&gt;I got a new one. LOL.&lt;/p&gt;
+&lt;p&gt;I decided that with the increased use of my standing desk that I was sick of the blue switches on my Vortex Race3. That board isn&#39;t hot-swap, so I was kind of stuck. Plus it is a micro USB, and I hate that. How we ever put up with that little annoying AF connector, I will never know. So I decided that I was going to upgrade.&lt;/p&gt;
+&lt;p&gt;My initial inclination was to go custom like I did for my main desk. But I decided to save some money and get a pre-built. Not only would it save cash, but it would be easier. So I did some research, watched a few videos, and ended up buying the Keychron Q1.&lt;/p&gt;
+&lt;p&gt;I&#39;ve had a Kechron board before, and I hated it. The build quality was horrible, it had connectivity problems, and the Bluetooth never worked. It was just really, really bad. But supposedly, Keychron has gotten better over the last few years as they started to appeal to the more custom mech crowd. So, I bought the Q1v2, and I received it this past week, so I thought I&#39;d give it a small review.&lt;/p&gt;
+&lt;p&gt;First, the build quality of the actual board is amazing. The thing has to weigh close to 5lbs. It&#39;s nuts. It is heavier than the custom KBD75, which is itself a beast. It also flexes more than the kbd75, which has led to a much more comfy typing experience. I love it, and it has made going back to the kbd75 hard because that is a very stiff board.&lt;/p&gt;
+&lt;p&gt;The one downside to the build quality of the Q1 is the keycaps. They are horrible. For a $200 board, the caps are cheap, thin, and plastic feeling. I&#39;ve seen 30 buck boards that have better caps than the Q1, which is a travesty. I immediately took the caps off and replaced them with and cheap set I had lying around from Amazon. Instantly better. I can&#39;t believe that no one in their review of the Q1 talked about how cheap the caps feel. Makes me wonder if the company shipped out different caps to the reviewers than they do to the everyday consumer.&lt;/p&gt;
+&lt;p&gt;In terms of sound, it is wonderful. If you like that clicky, thocc-y sound, the Q1 will be very good for you. It sounds better (once I replaced the keycaps) than every board I have except the kbd75 (which is a lot more expensive). I&#39;m very happy with how it sounds. And the stabilizers are so much better than the Keychron that I had before. Those old ones rattled like crazy and you could tell that they had no lube whatsoever. The Q1 is completely the opposite. The stabilizers do not rattle at all and the actuation on all the stabilized keys is smooth. I love it.&lt;/p&gt;
+&lt;p&gt;Overall, I really like this keyboard. I wouldn&#39;t tell anyone to buy it though unless they know that they&#39;ll immediately have to replace the keycaps. Which I think kind of removes one of this board&#39;s best features: the price. For $180, it is built like a $400 board. But the fact that they have to replace the caps if you want quality, will immediately increase the price by at least another 50 bucks. And when you get to $240 or more, there are custom kits out there around that price, and you can choose more about what your build includes. If you were to go with the Q1v2, I&#39;d suggest going with the barebones version. Get your own switches and caps, and you&#39;ll have a custom that is better than the pre-built.&lt;/p&gt;
+&lt;p&gt;My next keyboard investment, probably sometime next year, is going to be a split keyboard. It&#39;s time I tried one.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a good week! If you&#39;re reading this on the website, you can get early access to posts like this by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>More Setup Changes</title>
+		<link href="https://thelinuxcast.org/posts/ChangingSetups/"/>
+		<updated>2022-09-26T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/ChangingSetups/</id>
+		<content type="html">&lt;p&gt;Over the last week or so, I&#39;ve been working on improving my setup. I&#39;ve already written about &lt;a href=&quot;https://thelinuxcast.org/posts/newmic/&quot;&gt;the new Microphone and the new audio interface&lt;/a&gt; (both of which I&#39;m really enjoying), but I&#39;ve not talked about a couple other changes that I&#39;ve decided to make.&lt;/p&gt;
+&lt;p&gt;First, the monitor on my standing desk died. As you know if you&#39;ve read the previous blog posts about this, I&#39;m working on getting my standing desk set up so I can do some voice overs and some videos from there. When the monitor died, I decided it was time for some changes.&lt;/p&gt;
+&lt;p&gt;I put one of the 27 inch HP monitors that have been on my main desk for a couple years on the standing desk. It is quite a change, as I&#39;ll talk about later. Then I ordered a 32 inch curved monitor from Sceptre. It&#39;s a lot bigger. I didn&#39;t think there would be that big a difference between 27 and 32. It looks like way more than 5 inches.&lt;/p&gt;
+&lt;p&gt;The Sceptre monitor I bought is okay. I don&#39;t know the model number off hand, so I can&#39;t share that with you, but it was around $250. I chose this one because it was one of the only 32&amp;quot; monitors that wasn&#39;t ultra widescreen. I don&#39;t have room for an ultra widescreen on my desk, not if I want to keep the other 27 inch monitor on my desk as well. Which I do. Eventually, I&#39;m going to get a new desk, but that will be waiting until next year.&lt;/p&gt;
+&lt;p&gt;I say the new monitor is only okay because I&#39;m not quite happy with the contrast. Blacks on it are pretty washed out. I think I can fix that in the settings, but so far that has not happened. There doesn&#39;t seem to be an auto calibrate function like there is on my 8 year old HP 27&amp;quot; monitors. Which I find disappointing.&lt;/p&gt;
+&lt;p&gt;I&#39;m also somewhat unhappy that I went with 1080p for the new monitor. I still say I can&#39;t tell the difference between this and something higher, but I&#39;ve only seen 4k and 1440p in friend&#39;s offices, so maybe I would on my desk. I&#39;m not too disappointed. I can&#39;t see pixels or anything.&lt;/p&gt;
+&lt;p&gt;Right now the thing that is driving me nuts is that the second monitor, the 27&amp;quot; looks so much smaller. The two side by side just do not fit well together. It makes me think I want a second 32&amp;quot;, but I don&#39;t think even with the curved nature of them, that I&#39;d be able to fit two 32s on my desk. I may try it anyways though in a few months.&lt;/p&gt;
+&lt;p&gt;So yeah, my setup is slowly coming together. This will probably be the last change I make until I get my new desk next year, which I&#39;m honestly quite happy about. Too much change and all that.&lt;/p&gt;
+&lt;p&gt;On another note, I think I&#39;m going to be spending a month in qtile. I still love i3, and I doubt very much that qtile will win me over, but for a video I&#39;ll spend some time with it and see if I can make it work as well as I have with i3. Maybe do some ricing and work on a ricing script for it. That should be fun and provide some content, so stay tuned for that.&lt;/p&gt;
+&lt;p&gt;Hope everyone is having a nice week. If you are reading this on the website, you can get this along with the occasional video early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I&#39;m an Influencer. What Now?</title>
+		<link href="https://thelinuxcast.org/posts/twitterpopularity/"/>
+		<updated>2022-09-20T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/twitterpopularity/</id>
+		<content type="html">&lt;p&gt;I have been a member of Twitter since 2009. I will be completely honest and say for the first, oh, I don&#39;t know, 5 years or so, I was mostly the type of Twitter user who posted things like &amp;quot;I&#39;m home&amp;quot; and &amp;quot;Here&#39;s my dinner&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Very exciting stuff, let me tell you.&lt;/p&gt;
+&lt;p&gt;But even then, I had high aspirations. As anyone can attest who was around in those early days of social media, it was a common dream to have a large following of people who waited with bated breaths for your next amazing post. I don&#39;t really know how I was expecting to get that type of following with the type of inane content I was posting, but I still had those dreams. And it wasn&#39;t just Twitter. I used every social platform at the time in pretty much the same way. (The only exception, kinda, being Facebook, where I had been since 2004. At the time, that was still more about family connections than anything else).&lt;/p&gt;
+&lt;p&gt;Obviously, fame and social standing never happened for me on my @mtwb twitter account. (still inordinately proud of having a four letter handle). The most followers I ever achieved was around 1,000, and that was only because I joined up with a political follow-back thing that encouraged all of their memebers to follow each other back. I eventually stopped the political thing and unfollowed everyone I had followed, which, of course, led to my follower count going way down.&lt;/p&gt;
+&lt;p&gt;Even now, no my main, personal account on Twitter, I have only around 900 followers, the vast majority of whom are probably bots. Every once in a while I&#39;ll get a post that gets 10 or 12 likes, but that is pretty rare. I do have a few people on that account that I interact with, but mostly I use it for following my fanfiction peeps and a few friends from school.&lt;/p&gt;
+&lt;p&gt;In 2017, I created The Linux Cast. Ricky, on of my online friends, and I decided to create the Linux podcast so we could nerd out together about Linux. We carried on for almost a year or so. I created &lt;a href=&quot;https://twitter.com/thelinuxcast&quot;&gt;@thelinuxcast&lt;/a&gt; then. I think I had about 20 followers for the entire first two years of the pod.&lt;/p&gt;
+&lt;p&gt;After those two years, the Linux pod laid dormant. Ricky and I got busy with other things, and while I still used Linux full time, Ricky will always been an Apple fanboy. In 2020, when I went to Anchor (where I host both of my podcasts), I noticed that people were actually listening to those old episodes of The Linux Cast. That spurred me to start back up.&lt;/p&gt;
+&lt;p&gt;The success of the YouTube channel has been phenomenal. There isn&#39;t a day that goes by that I don&#39;t shake my head at the success that I&#39;ve had. I mean, I&#39;m not DT or Chris Titus, but 20k is a ton of people. 20,000 people have subscribed to my channel. Just thinking about it makes me a bit dizzy, tbh.&lt;/p&gt;
+&lt;p&gt;The thing that came with that YouTube success, however, is the thing that back in 2009, I wanted the most: Twitter fame. Okay, maybe not fame, but I now have 1500 followers on Twitter (not even a ton more than I&#39;ve had on my main account for years), but the difference is that I have true interaction on @thelinuxcast more than I ever did on my personal account. People like and retweet and reply on my Tweets a ton. Just this morning I woke up and had over 100 mentions, some of them from actual, big time Linux YouTubers, as they were discussing a Tweet I made about AppImages.&lt;/p&gt;
+&lt;p&gt;It feels so odd, whether it is on Twitter or YouTube or on Discord, for people to actually &lt;em&gt;care&lt;/em&gt; what I have to say. I&#39;m just a nerd from the mid-west, playing on his computer all damn day. That &#39;fame&#39; I wanted in 2009, now that it&#39;s here ish, seems so odd. If anyone called me an influencer, I&#39;d probably cuss them out, but this must be a tiny bit what those actual people with influence feel like every day, just on a far grander scale. I can&#39;t imagine having 100,000 followers on Twitter. Or a million. That&#39;d be crazy and I have no clue how I&#39;d handle that. As is, it feels surreal, I can&#39;t imagine what more would feel like.&lt;/p&gt;
+&lt;p&gt;I find that the bigger I get on social media, the more I strive to not care how big I get on social media. No longer do I want internet fame. Don&#39;t get me wrong, I love that people subscribe to my channel, and I want them to continue doing so, but I no longer just want to be popular for popularity&#39;s sake. I want to be known for a good reason. I want people to follow or subscribe because I helped them or they find my stuff interesting. Just getting a ton of subscribers/followers for the sake of being influential, just kind of makes me sick and ashamed of my younger self who very much wanted that. Now, as I gain followers for a good reason, I think that&#39;s a much better way to go about it.&lt;/p&gt;
+&lt;p&gt;And to go back to the not caring bit, I also find that it&#39;s a mental health thing too. Even when I first started off with YouTubing (not a word), I was obsessed with getting more and more subs. Now, I still check my subscriber count a few times a day (mostly I just see it passing by as I go towards the content view of YouTube studio), but I no longer have to check it 10 times an hour to see if I got one more subscriber. It&#39;s made the whole thing a lot more fun for me. I can make my videos and tweet my tweets, without doing it for what seem like the wrong reasons. And as I continue to do that, I think my videos will keep getting better.&lt;/p&gt;
+&lt;p&gt;Anyways, those are some brief thoughts on my Social Media journey. I hope everyone has a great week. If you&#39;re reading this on the website, you can get early access to posts like this and the occasional video by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Bought a New Microphone</title>
+		<link href="https://thelinuxcast.org/posts/newmic/"/>
+		<updated>2022-09-12T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/newmic/</id>
+		<content type="html">&lt;p&gt;So I&#39;ve purchased a new microphone. I&#39;ve spent the last few days researching and in the end I decided to go with the Shure SM7b. I know that it&#39;s a cliche podcaster/YouTuber microphone, but I don&#39;t care all that much. People use it for a reason. It&#39;s really good.&lt;/p&gt;
+&lt;p&gt;The other option was the EV RE20, which is the slightly cheaper brother to the microphone that DistroTube uses. I really liked that mic, but it requires a shock mount that is another $100 on top of the cost of the microphone. I decided to save myself a hundred bucks.&lt;/p&gt;
+&lt;p&gt;I suppose I should talk about why I decided to go with a new mic. I&#39;ve been using the Heil PR40 for the last 10 years. (I&#39;ve been podcasting since 2009). It&#39;s a good microphone and is still working fairly well. I&#39;ve decided to start doing some of my videos from my standing desk, so the PR40 will be moving over there. And the SM7b will be at my main machine. Really that&#39;s all it boils down to, I wanted a good mic over on my standing desk.&lt;/p&gt;
+&lt;p&gt;I also bought a new audio interface. I chose the UA Volt 276, which I hope will work fairly well with Linux. I don&#39;t see a reason why it shouldn&#39;t since all the processing I care about will happen on device. It has a nice built in analog compressor and a vintage mode which is supposed to sound really nice. A bit pricey, but that built in compressor really sold it for me. That will be sticking around with the SM7b, while my Scarlet Solo is going to go over to the standing desk. I also bought a fethed, which seems to be a must for the Shure. I again decided to save money there instead of paying almost double for a Cloudlifter.&lt;/p&gt;
+&lt;p&gt;The one thing they tell you about being a YouTuber is to not get too invested into gear. I did a pretty good job of this up until now, to be honest. The Heil PR40 I already had, so that wasn&#39;t for the channel. And while I&#39;ve bought things like headphones to make editing easier, I haven&#39;t spend a ton of money to make my set up better (despite some temptation to do so). I think now that I&#39;ve done this for two years a relatively small investment in some equipment, to help my work flow a bit (I really want to use my standing desk more), is perfectly fine.&lt;/p&gt;
+&lt;p&gt;My biggest hope is that I don&#39;t regret not going with the RE20. I really like the look of that microphone, but I had to remind myself that it really doesn&#39;t matter how a mic looks, just that it sounds good. From the sound tests I listened to, I just could not tell the difference between them. I&#39;m not an audiophile at all, so that&#39;s not that surprising, but I figured saving the extra cash was a better choice, at least at the moment. Of course, if I hate the SM7b, I&#39;ll exchange it for the RE20. I guess we&#39;ll see how that turns out.&lt;/p&gt;
+&lt;p&gt;I hope your week is going well. If you&#39;re reading this on the website, you can get these blog posts along with the occasional video early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Used 10 Workspaces for 48 Hours</title>
+		<link href="https://thelinuxcast.org/posts/workspaces/"/>
+		<updated>2022-09-05T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/workspaces/</id>
+		<content type="html">&lt;p&gt;I think anyone who has watched my content for any period of time knows that I have a workspace problem. I use a ton of them, so much so that it has kind of become a meme. Often times I have content on 14-15 workspaces at a time. I&#39;ve talked about this and the reason why I work this way in several videos, so this isn&#39;t news to anyone who has watched my videos for some time.&lt;/p&gt;
+&lt;p&gt;However, I do realize that it can sometimes get in the way of my productivity, especially when I have so many workspaces open for so many days that I can&#39;t remember what is where. A few days ago, I was in such a situation. My computer had been up for a few days at that point, as I was working on several projects at once, and I had stuff on 18 of the 19 workspaces. It was a mess and way overboard. So I decided then, that I would try to go down to 10 workspaces shared between my two monitors and see if I could get in the habit of working with that number of desktops.&lt;/p&gt;
+&lt;p&gt;I had hoped that this would give me a couple advantages. First, I&#39;d get better at closing up windows and apps that I&#39;m not using (and maybe shutting my computer off at night, which I don&#39;t often do because it also serves as my Plex server), and second, I had hoped that it would allow me to do some tweaking to a few of my polybar configs. I want to start using icons in place of workspace numbers on some of my rices, and that&#39;s hard to do when I have 19 workspaces and not all of them are dedicated to one task.&lt;/p&gt;
+&lt;p&gt;So I tried this for over 48 hours (you should honestly be proud that I made it that long). It was a disaster for my productivity. Maybe if I could have stuck it out for a week I&#39;d have gotten used to it, but I just could get nothing done. It felt like I had no room to breathe. All 10 workspaces were constantly full, which meant I had no new workspaces to work with. It was a horrible feeling.&lt;/p&gt;
+&lt;p&gt;I know it sounds like I&#39;m being hyperbolic, but it&#39;s true. It was a horrible experience.&lt;/p&gt;
+&lt;p&gt;I get people asking me why I need so many workspaces, and I always say it&#39;s just the way I work, but I don&#39;t think I really knew the answer until I did this little experiment. I like having a place for everything. I have one or two workspaces that are always dedicated to instances of Firefox or whatever browser I&#39;m using. I have one for my todo app. I have one for discord. One for Krusader. Three or four that have terminals open on them with various apps that I find myself constantly using (things like vim and such). One for Thunderbird. One for Marktext. You get the idea.&lt;/p&gt;
+&lt;p&gt;And I&#39;m the type of person who leaves this stuff open all the time. I know that most people probably close their apps when they&#39;re done with them, but I know that I&#39;m going to be coming back. And my attention span is such that I often do three or four things at once. (For example, I&#39;m writing this right now, ricing i3 (shocker), and watching master check and Justified all at the same time) I switch from one task to another bam bam bam. It&#39;s how I&#39;ve always worked. It may not be elegant or healthy, but it works for me.&lt;/p&gt;
+&lt;p&gt;So when I went to 10 workspaces, I felt like I lost a part of my productivity space. The places I had dedicated to certain apps or uses were now forced to share that space with another app or sometimes two. It just did not work for me, and to be honest, it made me uncomfortable and highly unproductive.&lt;/p&gt;
+&lt;p&gt;So, after 48 and a few hours, I switched back to my 19 workspace set up on i3. It feels like I can breath again, and I&#39;m much happier. I&#39;ve gotten so much more work done today than I have in the last two it&#39;s not even funny. So yeah, a lot of workspaces is going to be the way I go. I guess as long as it doesn&#39;t hurt anything, it doesn&#39;t matter.&lt;/p&gt;
+&lt;p&gt;If you&#39;re reading this on the website, you can get these posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I hope everyone has a great week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Mobile Email Sucks Donkey Balls</title>
+		<link href="https://thelinuxcast.org/posts/MobileAndroidEmailSucks/"/>
+		<updated>2022-08-31T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/MobileAndroidEmailSucks/</id>
+		<content type="html">&lt;p&gt;Most of my email use is actually on my phone. I&#39;ve never found an email client on Linux that I really like (I use Thunderbird, but it has so many issues). When I&#39;m on iOS, the email clients are great and plentiful.&lt;/p&gt;
+&lt;p&gt;And while there are many email clients on Android, there aren&#39;t many good ones, or at least not any good ones that don&#39;t also come with a huge caveat (which I&#39;ll talk about later).&lt;/p&gt;
+&lt;p&gt;For years, I&#39;ve been using &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.ninefolders.hd3&amp;amp;hl=en_US&amp;amp;gl=US&quot;&gt;Nine&lt;/a&gt;, and it&#39;s a really good app, but I&#39;ve been using multiple email accounts for a few months now and the unified inbox that Nine offers is just not great. Mostly because you can&#39;t set it as your default view, which means you have to constantly switch back to it after reading a message or managing your messages. That is annoying AF.&lt;/p&gt;
+&lt;p&gt;So, I&#39;ve been looking for something different. I really only have three needs when it comes to an app for email: it has to have a good, default unified inbox (which means multi-account support is a must), it has to be customizable (I like to be able to tweak colors and change the quick actions in the notifications), and it has to be good looking or at least well enough designed that it isn&#39;t off putting.&lt;/p&gt;
+&lt;p&gt;That last one is honestly the hardest thing to find. iOS does such a better job when it comes to app design. There are so many on Android that just look like utter garbage. I tried K9, because I thought open source was a good idea, but it is so dated and doesn&#39;t have many features that I&#39;ve come to expect (like swiping to delete and so on). So that was a no go.&lt;/p&gt;
+&lt;p&gt;Over the last few days, I&#39;ve probably tried 10 different clients. And there have been a few that I thought would be okay. Spike and AquaMail were both really nice, though AquaMail wasn&#39;t that great looking out of the box. The issue is that both of them had that caveat I mentioned earlier, and that is their paid plans. And that brings me to the meat of the story.&lt;/p&gt;
+&lt;p&gt;It turns out that developers need to make money. This is something I&#39;ve talked about on the channel before when it comes to Linux and Open Source. I understand this, and I&#39;m quite happy to pay for an application when I like it and use it. I&#39;m not made of money, but when I can, I will gladly pay money for an app. I&#39;ll even pay exorbitant amounts for an app if I really like it. (I paid 40 bucks for a Twitter client once, I shit you not). What I will not do is pay $100 a year for an email client. It seems that every email client on Android that is actually any good has a pro plan that costs an arm and a leg.&lt;/p&gt;
+&lt;p&gt;I hate subscription services for apps. I can get behind a subscription service for a service (Netflix and a VPN or something), but for an App, I can&#39;t stand it. It&#39;s one of the reasons why I would never use Photoshop or Adobe Premier. I will never pay $70 a month for an app. Just let me buy it. I&#39;ve proven that I&#39;m not unwilling to spend a load of money for an app if it is good and useful. Hell, I even paid 200 bucks for the Adobe suite back in the day (in college). I won&#39;t pay for that money month to month.&lt;/p&gt;
+&lt;p&gt;Add on top of all that, the &#39;perks&#39; that these email clients offer are just horrible. The two I mentioned above, Spike and AquaMail, hide features that should be a basic part of their client, behind their paywall. Specifically, AquaMail doesn&#39;t offer you multi-account support without giving them $14.99 a month or something like that. That&#39;s nuts.&lt;/p&gt;
+&lt;p&gt;In the end I did find an app. It&#39;s called Email from Edison Software. And it&#39;s beautifully designed and has all the features I need. It does have a pro plan for $100 a year, but they have at least not hidden the necessary features behind that plan, so I can just use it for free. I wish they didn&#39;t have the subscription plan, because I&#39;d gladly throw them 20 bucks or something. I just refuse to do it every month.&lt;/p&gt;
+&lt;p&gt;I hope everyone is doing well. If you&#39;re reading this on the website, you can get all of these blog posts early by supporting me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Have a good week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lacking Ideas</title>
+		<link href="https://thelinuxcast.org/posts/ideas/"/>
+		<updated>2022-08-01T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/ideas/</id>
+		<content type="html">&lt;p&gt;I don&#39;t know if you guys have noticed or not, but sometimes the videos that come out on the channel are a bit lackluster. I do try to come up with and produce good content.&lt;/p&gt;
+&lt;p&gt;But nobody can create good content all the time. Sometimes there are stinkers.&lt;/p&gt;
+&lt;p&gt;I&#39;ll admit that the absolute hardest part of doing this is the ideas behind the content. Coming up with new ideas, especially when you put out as many videos as I do, is really effin&#39; hard. So, yeah, there are quite a few videos that are on topics that just kind of flop.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t bother me as much as it used to. In the early days, when I put out a stinker, I&#39;d be a bit depressed about it. Unhappy that no one wanted to watch it. Angry sometimes too, because sometimes the stinkers weren&#39;t throw away videos, but were instead videos that I had put quite a bit of effort into.&lt;/p&gt;
+&lt;p&gt;Nowadays, I don&#39;t care as much. I know now, from experience, that sometimes videos flop. I&#39;ve even gotten pretty good at recognizing when a video is unlikely to do well. Either it&#39;s a topic that just won&#39;t appeal to many or I&#39;ve done it too often. Because I have gotten a little repetitive. I&#39;ve noticed in some of my more noob-friendly videos that I&#39;ve been repeating myself a bit too much.&lt;/p&gt;
+&lt;p&gt;It is something I need to improve on. And I have started to think about doing some more app and distro based videos. Maybe a few more tutorials. Fewer rants (don&#39;t worry those won&#39;t ever go away entirely), things like that.&lt;/p&gt;
+&lt;p&gt;Another problem is that because I&#39;ve done so many videos (Over 500 so far), I&#39;ve forgotten which one&#39;s I&#39;ve done in the past. So I&#39;ve found myself a couple times redoing videos I&#39;ve already actually posted. So that&#39;s another thing that I&#39;m going to have to keep track of, or at least do a better job of keeping track of.&lt;/p&gt;
+&lt;p&gt;Anyways, I guess the point this week is that I&#39;m sometimes out of ideas, that&#39;s why you&#39;ll see the occasional stinker on the channel.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week. If you&#39;re reading this on the website, all my blog post are released a week early for patrons. Check that out &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Love Fedora</title>
+		<link href="https://thelinuxcast.org/posts/i_love_fedora/"/>
+		<updated>2022-07-22T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/i_love_fedora/</id>
+		<content type="html">&lt;p&gt;So a couple of weeks ago, my Arch system sh^t the bed. Most of the issues where were my fault. Turns out uninstalling Plasma from a Plasma Distro is not a great idea. Who knew? Or maybe I knew, and I did it anyways, because I do what I want, b*tches. Sorry, too much South Park.&lt;/p&gt;
+&lt;p&gt;Anyways, after that happened, I decided that I needed to move away from Arch. I know from some of the snarky comments I received on YouTube that a lot of people had no faith that I would leave Arch behind for good. Maybe, just maybe, I&#39;ve cultivated such an unfair reputation. I dunno.&lt;/p&gt;
+&lt;p&gt;Fedora ended up being my destination. I started out with the workstation iso and spent a week there. It was spectacular. So spectacular, that is, that I decided to nuke it and install the KDE spin. I did it for good reasons though, which I will get into in a bit.&lt;/p&gt;
+&lt;p&gt;Once there, I&#39;ve had so much fun. One of the things I think is absolutely true, at least for me, is that Arch kind of makes you lazy. Yes, problems arise, but they&#39;re mostly the same problems over and over again. Add on top of that, the AUR makes it so easy to get software that you kind of forget what it&#39;s like to have to actually hunt for the things you need.&lt;/p&gt;
+&lt;p&gt;Now, that&#39;s not to say that the AUR is bad. Of course it&#39;s great that you can install something so easy. But outside of the Arch ecosystem, you have to actually work for it. That feeling of accomplishment that you get when you do it yourself, is not worth nothing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/everforest.png&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/everforest.png&quot; alt=&quot;everforest&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Getting Fedora set up and working the way I want to has just been a joy. I don&#39;t think I&#39;ve had this much fun on Linux since I started. Add on top of that that the experience, outside of a couple things, has been so utterly painless that I can&#39;t even remember the last time I&#39;ve had such an easy go of actually using a distribution.&lt;/p&gt;
+&lt;p&gt;There have only been two problems. First, the ongoing one, is that when I log out of i3wm, it hangs at the wallpaper and never brings up SDDM. I&#39;m unsure what the issue is here, to be honest. And I&#39;m not sure I care. I don&#39;t log out all that much. It just means I can&#39;t easily change sessions. I don&#39;t have the same issue when logging out of Plasma, so it must be an i3 thing.&lt;/p&gt;
+&lt;p&gt;The second problem was one that drove me crazy, and that was for some reason, every app was defaulting to the GTK+ file picker. And while normally I wouldn&#39;t are, the GTK file picker on Fedora is broken AF. You go to type in a file name when in the save dialogue, and instead of letting you type the name, it assumes you want to search. As I said, annoying. It wouldn&#39;t have even been a big deal, as the only place I really save files with a file picker is Kdenlive.&lt;/p&gt;
+&lt;p&gt;You&#39;d think that, being a QT app, it&#39;d use the QT file picker. Nope.&lt;/p&gt;
+&lt;p&gt;I struggled with this on both the Workstation version of Fedora and the KDE spin. Eventually, I solved it. I just uninstalled the gnome and gtk destkop portals. IDK if that was the best solution or not, but it worked and I have had no issues since then, so it didn&#39;t break anything.&lt;/p&gt;
+&lt;p&gt;Outside of those two relatively minor issues, Fedora has been wonderful. DNF, after enabling parallel downloads, has been very good. And the selection of software in the repos has been better than I expected. There have been several things I haven&#39;t been able to get, that I needed to build (eleventy, a few rofi things) but most stuff is there. And COPR, despite what I said on camera, is nice to have. A bit convoluted and a bit too much like PPAs, but still nice to have.&lt;/p&gt;
+&lt;p&gt;Overall, Fedora has been great. I&#39;m over 2 weeks of using it and I don&#39;t see myself switching away unless something horrible goes wrong. And even then, I&#39;m going to try to solve the problems I have instead of hopping. I want stability and consistency in my old age, I guess.&lt;/p&gt;
+&lt;p&gt;I hope everyone is having a fine week. If you&#39;re reading this on the website, you can get all my blog posts early by supporting me on any level over on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>In Defense of Ricing</title>
+		<link href="https://thelinuxcast.org/posts/in_defense_of_ricing/"/>
+		<updated>2022-07-21T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/in_defense_of_ricing/</id>
+		<content type="html">&lt;p&gt;I get a lot of comments about how dumb it is to constantly change the look of my setup, that I spend too much time customizing the look and feel and not enough time working. Almost every video I&#39;ve ever done that has something to do with ricing has at least one comment like that.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/rice1.png&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/rice1.png&quot; alt=&quot;rice1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The thing is, I like ricing. I&#39;ve talked about this in a video before. I know that I do spend too much time customizing my window manager, but I don&#39;t care. I &lt;em&gt;enjoy&lt;/em&gt; ricing. When it comes to hobbies, I don&#39;t think this is a bad one. For sure there are worse ones to have.&lt;/p&gt;
+&lt;p&gt;And because I look at my computer screen for so many hours, every single day of the week, I want to look at something that is nice looking. Maybe I&#39;d be more productive if I was running something that was just black and white with no frills. Maybe. I doubt it though. I&#39;d be bored and unhappy with such a set up.&lt;/p&gt;
+&lt;p&gt;Not that I disparage people from actually doing that if that type of setup suits them. It&#39;s just not for me.&lt;/p&gt;
+&lt;p&gt;One of the coolest things I&#39;ve done is written my configs in such a way that I can change two lines and switch to a completely different theme. It saves loads of time. So, yes, I created the theme, but once it&#39;s created I can save it and switch between it and all the others that I&#39;ve created.&lt;/p&gt;
+&lt;p&gt;I don&#39;t consider it a waste of time. To be honest, it may not be productive time, but it was time that I enjoyed. It&#39;s like any other hobby. It may not be something you can turn into billable hours, but if you enjoy it, that&#39;s what matters.&lt;/p&gt;
+&lt;p&gt;So I don&#39;t understand the people who find Ricing a waste of time. If it&#39;s not for them, that&#39;s fine. But I enjoy it.&lt;/p&gt;
+&lt;p&gt;Not much of a blog post, but I needed to talk about it, so there you go. If you&#39;re reading this on the website and would like to get these blog posts early (along with the occasional early video) you can support me on &lt;a href=&quot;https://patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a great week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Update on the Website</title>
+		<link href="https://thelinuxcast.org/posts/Updating_Site/"/>
+		<updated>2022-07-11T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/Updating_Site/</id>
+		<content type="html">&lt;p&gt;It has been a bit since my last blog post. The website was such a pain in the bum to update, I just didn&#39;t bother writing.&lt;/p&gt;
+&lt;p&gt;Luckily, thanks to Joris, that is a think of the past.&lt;/p&gt;
+&lt;p&gt;Joris has spent time setting me up with a brand new website back end based on Eleventy. It means I can write my posts here in Markdown and not have to use pandoc to go to html and then update the site manually through it. It&#39;s all done with a handy-dandy script. Totally awesome.&lt;/p&gt;
+&lt;p&gt;So, that should mean that blog posts will be coming back as a weekly thing. I&#39;ll still release them early for patrons, which is something I&#39;ve been slacking on lately, so check out &lt;a href=&quot;https://patreon.com/thelinuxcast&quot; title=&quot;Patreon Link&quot;&gt;there&lt;/a&gt; if you want to see posts early.&lt;/p&gt;
+&lt;p&gt;Also, check out Joris&#39; &lt;a href=&quot;https://jorisvandijk.com/&quot;&gt;site&lt;/a&gt;. He&#39;s got some great blog posts over there.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a good week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>An Essay on YouTube Mental Health</title>
+		<link href="https://thelinuxcast.org/posts/0005/"/>
+		<updated>2022-06-09T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0005/</id>
+		<content type="html">&lt;p&gt;I&#39;ve been creating videos now on YouTube since September 2020. While that doesn&#39;t seem like all that long, in that time I&#39;ve created over 400 videos, had over 1,000,000 views, and I&#39;m really close to 10,000 subscribers. So, I think that I am qualified enough to talk about some YouTube stuff.&lt;/p&gt;
+&lt;p&gt;I call it stuff because talking about Mental Health is always uncomfortable. Nobody likes doing it, and nobody likes listening to it because it makes us all think about our own struggles with emotions and the everyday grind of life in the Real World.&lt;/p&gt;
+&lt;p&gt;One of the problems I deal with outside of the YouTube world is motivation. It is something that has always been a problem for me. I joke a lot that I&#39;m the laziest bastard this side of the Mississippi, but I really do have times where I just have no interest in doing anything. More times than I&#39;d like to admit to, really.&lt;/p&gt;
+&lt;p&gt;I say this because that laziness often peaks it head into the YouTube world as well. A lot. Pesky little bugger.&lt;/p&gt;
+&lt;p&gt;Maintaining a YouTube channel that puts out a video almost every single day has definitely tested my ability to stay motivated. Add on top that this is &lt;em&gt;not&lt;/em&gt; my job and it has been especially hard some days to even think about making a video.&lt;/p&gt;
+&lt;p&gt;So, it is perhaps unsurprising, that there are certain aspects of being a &#39;YouTuber&#39; that can make it even harder to continue on.&lt;/p&gt;
+&lt;p&gt;The biggest thing is, obviously, views. There is no predicting what video will do really well and which one will flop. You can spend 4 days recording and editing a video and it will be a complete failure, while at the same time spend 15 minutes on a video and it will get 10,000 views.&lt;/p&gt;
+&lt;p&gt;Even Mr. Beast can&#39;t predict the YouTube algorithm, though he definitely does a better job of it than almost anyone else. So, it&#39;s not surprising that I can&#39;t do a good job of it.&lt;/p&gt;
+&lt;p&gt;The issue is that because of this unpredictability, there are times when you get two or three videos in a row that just flop. There&#39;s no reason why, they just do. Even if you thought that they&#39;d do well, and are topics that you thought would be appealing to a lot of your audience, they just flop.&lt;/p&gt;
+&lt;p&gt;And that brings us back to motivation.&lt;/p&gt;
+&lt;p&gt;There is no feeling worse than signing into YouTube studio (the backend that YouTube provides for creators) and seeing that the video you uploaded an hour before is the 10th video in terms of views out of the last 10 you published. It gets even worse when you have days like this in a row, where no video seems to be good enough.&lt;/p&gt;
+&lt;p&gt;Fighting through that is so, so hard. The voice in my head gets pissy, of course. &amp;quot;Why the fuck do I make videos? Ungrateful little assholes.&amp;quot; Not that it&#39;s anyone&#39;s fault. It&#39;s hard not to think that way. It&#39;s hard not to get greedy when things are going well, and just come to assume that things will continue to go well.&lt;/p&gt;
+&lt;p&gt;There are no guarantees on YouTube. That&#39;s for sure.&lt;/p&gt;
+&lt;p&gt;The constant worry of failure is ever present. If you see that dreaded 10/10 it is really hard not to think that it&#39;s &lt;em&gt;you&lt;/em&gt; who has done something wrong. Have that happen for multiple days in a row and it is impossible to not to think about how your channel is dying and that all the work you&#39;ve put in for years has been for nothing.&lt;/p&gt;
+&lt;p&gt;The toll it takes is vast and something that is not talked about enough. Sure, creating content on YouTube is not a hard job. I never will say that. There are jobs out there that are dangerous, physically demanding, and more mentally taxing. However, just because YouTube Content Creator isn&#39;t something that Mike Rowe would do, doesn&#39;t mean it can&#39;t be a contributor to depression and stress.&lt;/p&gt;
+&lt;p&gt;Since 2020, I&#39;ve experienced this depression multiple times. Sometimes several times in the same day. The up and down nature of being able to constantly plug into real-time stats makes it really easy to see when something isn&#39;t going as well as you had hoped it would. And when that happens, feeling down about it is inevitable.&lt;/p&gt;
+&lt;p&gt;I&#39;ve tried multiple times to remove the studio app from my phone, prevent myself from visiting the website, all in the hopes that I won&#39;t become so attached to watching the views and subscribers go up and down and up and down. And I have gotten better. When I first really started getting views (I mean any at all. I was so happy when I started to get 10 views a video), I checked every 2-5 minutes. It was an obsession.&lt;/p&gt;
+&lt;p&gt;Luckily, I don&#39;t do that now. I still check once and hour or so, and that&#39;s too often. (I do so more often right after a video has been published). But the need to look and see how things are going is strong and hard to fight against.&lt;/p&gt;
+&lt;p&gt;Motivation. That&#39;s where I started off this little talk. And it&#39;s where I&#39;ll end. Maintaining motivation and having fun creating content are essential if you want to be successful on YouTube (no matter what measure of success you&#39;re using). Losing interest in what you&#39;re doing can be devastating and make you feel like you&#39;re a complete failure and that nothing you ever do will be good enough.&lt;/p&gt;
+&lt;p&gt;Seeing constant statistics that tell you that you&#39;re latest videos have bombed just make you feel like you want to give up. Add on top of that the trolls and the meanness that exists in every content section, and it&#39;s no wonder that so many YouTubers give up after a year or so, no matter the success they&#39;ve found.&lt;/p&gt;
+&lt;p&gt;For me, the only thing I&#39;ve found that works is to reset myself. To go and do a video that I want to do and that I don&#39;t give a damn how it does. Something exotic or so niche that nobody would ever watch it. But I do it anyways because it reminds me that I&#39;m not doing this for the money or to be the next Mr. Beast. I started this because I thought it would be fun and I wanted to talk about Linux and Tech. Reminding myself of those reasons makes everything else not matter so much.&lt;/p&gt;
+&lt;p&gt;At the end of the day, YouTube is stressful. I have to constantly remind myself that if a couple videos don&#39;t do well, that it&#39;s okay and that the next one will be better. Hopefully. That hope that eventually you&#39;ll get out of your slump is just enough, most  days, to keep the motivation high enough to create another video.&lt;/p&gt;
+&lt;p&gt;Some days.&lt;/p&gt;
+&lt;p&gt;I hope everyone is having a great week. If you would like to get these blog posts a week early, you can support me on Patreon &lt;a href=&quot;https://www.patreon.com/thelinuxcast&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Audio Still Sucks on Linux</title>
+		<link href="https://thelinuxcast.org/posts/0004/"/>
+		<updated>2022-06-08T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0004/</id>
+		<content type="html">&lt;p&gt;On this past Sunday night (or a week ago Sunday if you’re not a patron), I had a huge plan. I was going to rice i3wm over and over again, creating several themes. It’s something I did for DWM and wanted (and still want) to do for i3 now that i3wm is my daily driver again.&lt;/p&gt;
+&lt;p&gt;The problem is that once I got streaming, no one could hear me. And I was like what the F$#k? My audio had been working fine. Tyler and I had even done a podcast a few days before that and everything worked fine during that stream.&lt;/p&gt;
+&lt;p&gt;The only thing that changed was that there was an update to pipewire on Arch.&lt;/p&gt;
+&lt;p&gt;Yeah. Pipewire. That piece of crap.&lt;/p&gt;
+&lt;p&gt;So, I did some trouble shooting, and found that for some reason, my input/output sources were going wonky. At least one was connecting and reconnecting randomly for no apparent reason. If it was just one source, I would have thought that it was that source going bad or needing to be rebooted. But it wasn’t. One time it was one source, the next it was another. It was effing odd.&lt;/p&gt;
+&lt;p&gt;Add on top of that, OBS was trying to make my amp/dac an input device, even though it’s, like, totally not an input device. This is a problem I had with Pipewire once before on Arch, so obviously this is something that happens a lot.&lt;/p&gt;
+&lt;p&gt;It is infuriating.&lt;/p&gt;
+&lt;p&gt;So, I decided to hop. I moved away from Vanilla Arch and decided to go to MX Linux. I figure that I won’t have to deal with random updates that break crap on a Debian-based distro.&lt;/p&gt;
+&lt;p&gt;Of course, it wouldn’t get past grub once I installed it. For f#$! sake.&lt;/p&gt;
+&lt;p&gt;After hours of messing around, I was about this close  , from just saying eff my Linux career, eff the YouTube Channel, eff everything, I’m installing Windows.&lt;/p&gt;
+&lt;p&gt;You think I’m kidding, but it’s true. I was so, so angry. Nothing was going right.&lt;/p&gt;
+&lt;p&gt;In the end, I ended up back on Arco. Arco seems to always treat me right and I enjoy their community more than any other. I get everything set back up on my system, all my apps installed, all my files back on the HDD, and what happens?&lt;/p&gt;
+&lt;p&gt;Same damn audio issue.&lt;/p&gt;
+&lt;p&gt;Yeah.&lt;/p&gt;
+&lt;p&gt;I did get it so that it will work, but for some reason, Pavucontrol/pulsemixer still wants to do some odd things. If I have it in my normal configuration, It wants to assigned my amp/dac to be an input device. But in OBS’s audio level indicator everything seems fine. If I go into pulsemixer/pavucontrol and change all my inputs to my Scarlet Solo, as it should be, then OBS thinks that the Desktop Audio (which is an Output) is actually a mono input. WTF?&lt;/p&gt;
+&lt;p&gt;Linux audio sucks. And I’ve said this before, but Pipewire actually makes audio on Linux suck unless you’re getting into Jack or something. If you’re just a normal audio user, Pipewire is still broken. Linux is 31 years old. Audio should not still be a problem.&lt;/p&gt;
+&lt;p&gt;Of course, I could uninstall pipewire. But it turns out doing that actually is harder than uninstalling snaps on Ubuntu. It’s tied into everything. And I mean everything. You have to remove like 20 packages, some of them essential, to get it to go away. It’s infuriating.&lt;/p&gt;
+&lt;p&gt;Anyways, it has not been a great week on Linux for me. Here’s hoping that the audio works fine for the pod on Thursday. But I’m not going to hold my breath.&lt;/p&gt;
+&lt;p&gt;If you&#39;d like to see these blog posts a week early, you can support me on Patreon here.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Like Flatpaks</title>
+		<link href="https://thelinuxcast.org/posts/0003/"/>
+		<updated>2022-06-07T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0003/</id>
+		<content type="html">&lt;p&gt;My love affair with the AUR is well documented. It&#39;s so bad I can&#39;t use anything that&#39;s not Arch-based on my main computer. Without the AUR, I just feel lost and without all of my lovely programs.&lt;/p&gt;
+&lt;p&gt;(I&#39;m really not without them, of course. The repos on Debian/Ubuntu/MX are great for the most part)&lt;/p&gt;
+&lt;p&gt;Even with that love affair still going strong, I find myself enjoying Flatpaks more and more. Some of this is some recent problems with building some apps from the AUR. Honestly, the problems have surprised me because for years, the AUR has been mostly flawless for me. I don&#39;t think I&#39;ve ever encountered a major problem prior to the last couple weeks.&lt;/p&gt;
+&lt;p&gt;With those problems, I had to turn to other sources. I refuse to use Snaps. I can&#39;t stand them, and despite what @DistroTube says, I think it&#39;s perfectly fine for me to hate them. I don&#39;t like loopback devices cluttering my lsblk or a Snap directory permanently being placed in my $HOME directory.&lt;/p&gt;
+&lt;p&gt;So, I chose Flatpaks. And, I have to say, it has been a surprisingly good experience so far. I&#39;m using the Audacity, GIMP and OBS flatpaks so far. The Audacity one seems to be the only way to get a 3.0+ version of Audacity without building it on Arch. I know that it has telemetry and I really don&#39;t like it, but I have a ton of project files with the new .aup file format, and pre 3.0 Audacity can&#39;t handle those. (Thank you Audacium for getting me onto that format and then breaking so I can&#39;t build you.)&lt;/p&gt;
+&lt;p&gt;By far the best experience is the OBS flatpak. I didn&#39;t know that the OBS package on Arch was so handicapped. Now I get access to chat panels and so much more, and it&#39;s awesome.&lt;/p&gt;
+&lt;p&gt;While I&#39;m sure that there are downsides to Flatpaks (themeing still seems to be a problem), I have enjoyed just being able to download an app without having to watch my terminal download a ton of dependencies, all of which add to my package count (not that that really matters, but it&#39;s something my brain notices). I also have enjoyed not having to wait for my computer to build the packages.&lt;/p&gt;
+&lt;p&gt;The only real problem I have is that the classes for the Flatpaks are wrong. You can&#39;t go into sxhkd and assign a binding to gimp anymore, it has to be com.gimp.whatever and it&#39;s a mess. We&#39;ve had classes for decades, can we please not come up with something else that is legitimately worse?&lt;/p&gt;
+&lt;p&gt;The real question is, will this newfound interest in flatpaks enable me to move away from Arch Linux? After all, the primary feature that I love most about Arch is the AUR. If I no longer need it, does that mean I can go to something like, I don&#39;t know, Solus and be happy there? Something to think about I guess.&lt;/p&gt;
+&lt;p&gt;Hope everyone has a nice week, even with all the idiocy that is going on in the world right now.&lt;/p&gt;
+&lt;p&gt;If you&#39;d like these blog posts a week early, you can support me on Patreon here.&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I Bought The Apple Watch… And It Kind of Sucks</title>
+		<link href="https://thelinuxcast.org/posts/0002/"/>
+		<updated>2022-06-06T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0002/</id>
+		<content type="html">&lt;p&gt;In an effort to start to move around more and become more healthy, I decided that I would do the nerd thing and buy a gadget to keep track of health and fitness metrics. Because I switched to the iPhone - and from everything I read, Android watches suck - I decided I would pick up an Apple Watch.&lt;/p&gt;
+&lt;p&gt;I’ve been using this thing now for a week, and I thought I’d write about my experiences so far.&lt;/p&gt;
+&lt;p&gt;First, I have never really worn a watch for any length of time before, so getting used to it has been a chore. I am finally getting there, but every time the damn thing buzzes with a notification, I startle. It’s kind of entertaining to watch. LOL.&lt;/p&gt;
+&lt;p&gt;But the main functionality that I bought it for has been disappointing. The biggest issue is that it is so inaccurate that it’s almost funny. The pedometer, for example, often states I have walked 10 miles during the day. Like, that’s not even possible. If it said a mile, I might have believed it, though I would have thought it was on the high side.&lt;/p&gt;
+&lt;p&gt;I spend the vast majority of my day sitting in front of my computer, using vim. I don’t walk around nearly enough, and I really don’t think I walk 10 miles a day when most days I don’t even leave the damn house.&lt;/p&gt;
+&lt;p&gt;I had so many hopes that it would be at least somewhat accurate. I wanted, and still plan to, move around more. I have the shittiest knees in the world (I’ve had multiple knee surgeries), so moving around is always hard. With the idea of having a step counter, I had hoped that it would form a little bit of motivation. With how inaccurate the Apple Watch is, I don’t know how well it will work.&lt;/p&gt;
+&lt;p&gt;Though I will still try to use it, of course, it won’t be as useful as it could otherwise be.&lt;/p&gt;
+&lt;p&gt;The other thing I really wanted was a reminder to stand up every so often. I usually get engrossed in my writing and work and forget to stand up as many times an hour as I should. So I thought that the Apple Watch would help with that. So far, I have been disappointed. It does count how many times you stand up, but only once an hour, and it will only remind you if you’re close to not meeting your daily goal. There might be something I’m missing here, but if not, it’s not as handy as I had hoped.&lt;/p&gt;
+&lt;h2&gt;The Notifications&lt;/h2&gt;
+&lt;p&gt;The one good area of the watch so far has been the notifications. For the most part the notifications I get on the watch are completely useless. But, because they come in on the watch, where you can do nothing with them for the most part, I dismiss them and I don’t think about them.&lt;/p&gt;
+&lt;p&gt;That means that I’ve actually used my phone much less. So despite the distraction of the notifications coming in and buzzing my wrist, I do tend to stay away from my iPhone more, which means less time wasted on YouTube and whatnot, which often happened whenever I picked it up to check an email.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It’s only been a week. I think that I will continue to give it a try. I don’t think that everyone who touts this thing as a health or fitness gadget really knows what they’re talking about. I hope that no one really takes this data seriously, because so far, I can’t see where it is anywhere near accurate.&lt;/p&gt;
+&lt;p&gt;That being said, I still kind of like it. It may be useless, but in typical Apple fashion, the hardware is excellent and I have found I enjoy having a clock with a timer on my wrist. I think I may try the pomodoro technique again, so this might help with that.&lt;/p&gt;
+&lt;p&gt;If you&#39;d like to receive these blog posts a week early, you can support me on Patreon Here&lt;/p&gt;
+&lt;p&gt;I hope everyone has a nice week,&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My Return to Android</title>
+		<link href="https://thelinuxcast.org/posts/0006/"/>
+		<updated>2022-05-10T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0006/</id>
+		<content type="html">&lt;p&gt;A few months ago, I talked about how I switched to iOS after having used Android for almost 3 years. As I said then, that switch was one that I usually do every 3 years or so, if only to see what the other main platform has come up with.&lt;/p&gt;
+&lt;p&gt;For the last few months, I&#39;ve been using an iPhone 11 Pro Max, and to be honest, I love the hardware but I can&#39;t stand iOS. It&#39;s odd because I used to love iOS. The apps for Apple&#39;s platform have always been superior (and I still feel that way for some apps), and their ability to deliver updates to so many of their devices immediately is both impressive and awesome for the user. I always like new things and being able to install the latest update right from Apple without having to wait for a carrier to do it just makes me happy.&lt;/p&gt;
+&lt;p&gt;But iOS itself is horrible. The notifications are even worse than they were the last time I spent any time on the platform and I found myself so constrained with moving around that the experience wasn&#39;t enjoyable.&lt;/p&gt;
+&lt;p&gt;So let me break this down a bit.&lt;/p&gt;
+&lt;h2&gt;Notifications on iOS&lt;/h2&gt;
+&lt;p&gt;The biggest issue is that I love actionable notifications. And while iOS has these, they are only actionable when they appear. Once they disappear into your notification shade, you can&#39;t do anything but open the app or dismiss them. Add on top of that that there is no way for you to know a notification came in after it has appeared on your screen unless you see it on your lock screen, and the notification system is useless.&lt;/p&gt;
+&lt;p&gt;Android is better. You can interact with the notifications in many ways, even from the notification shade, and there&#39;s an icon at the top of the screen indicating what notifications you have. Way better. Not that Android doesn&#39;t have its issues when it comes to notifications. I don&#39;t care for how there is a popup when the notification comes in. At least it is smaller than it used to be. I still do miss the scrolling notifications in the notification bar that used to be on Android.&lt;/p&gt;
+&lt;p&gt;I don&#39;t understand why Apple can&#39;t do notifications right. They are such an important part of a mobile operating system, you&#39;d think that they could get it right after over a decade of trying. But no.&lt;/p&gt;
+&lt;p&gt;It honestly drove me crazy. While I don&#39;t care if I miss a notification from a game or something, missing notifications from messaging clients are annoying AF. And then not being able to go into the notification shade and respond from there is just bad design, especially when we know it can be done.&lt;/p&gt;
+&lt;h2&gt;My Icons&lt;/h2&gt;
+&lt;p&gt;I knew going in that I wasn&#39;t going to be able to easily make my home screen the way I wanted it. That was fine. Mainly because I found myself recreating the iOS grid on Android so often I didn&#39;t think I&#39;d miss the ability to put icons wherever I damn well please&lt;/p&gt;
+&lt;p&gt;But I did.&lt;/p&gt;
+&lt;p&gt;I should have realized with my love of ricing, that I&#39;d miss the ability to customize my phone, but I didn&#39;t think it would be that bad.&lt;/p&gt;
+&lt;p&gt;On top of that, there is the lack of customization elsewhere that felt constraining. Things like being able to add things to the share sheet were just annoying.&lt;/p&gt;
+&lt;p&gt;I lived with it, but it was always a constant thing in the back of my mind.&lt;/p&gt;
+&lt;h2&gt;Siri is the worst&lt;/h2&gt;
+&lt;p&gt;I always knew that Siri was behind Google Assistant in every way that matters. I just didn&#39;t think it was so far behind. Being able to do something simple like repeat a track or lower the volume while I&#39;m in the shower is something I got used to with Android. You can&#39;t do that with Siri, or at least you can&#39;t do it easily.&lt;/p&gt;
+&lt;p&gt;And sometimes the responses from Siri when asking a simple question were just dumb. And the number of times she just dumps you into a Google search is ridiculous. If all I wanted to do was search Google, I&#39;d do that. The point of these assistants is to avoid having to do that directly and to be a bit hands-free about the whole thing. Siri doesn&#39;t get that? I don&#39;t know what Apple is doing.&lt;/p&gt;
+&lt;p&gt;Sometimes I wonder if Apple even uses its own products. They don&#39;t seem to because if they did, their products would be better. Notifications would get fixed, and Siri would get better. But they don&#39;t. Ever. It&#39;s not as if this is a new problem, this has been the case for almost a decade when it comes to Siri and even longer when it comes to the notification problem.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I don&#39;t do all this bitching without knowing that Android doesn&#39;t have its own problems. The phone I bought is a Samsung Galaxy S21+, and there are apps on there that cannot be deleted or disabled and are running all the time. This drives me insane. Knowing that there are apps on there that are running that I don&#39;t want to run is just so aggravating. And it is not as if I can do the custom ROM thing as Samsung is known to disable parts of the hardware if you do that. So I could install lineage or whatever, and I&#39;d just end up with a half-working phone.&lt;/p&gt;
+&lt;p&gt;I guess the bottom line is that both platforms are flawed. At the end of the day, however, the things about Android piss me off less than the lack of customizability and poor notifications do on iOS.&lt;/p&gt;
+&lt;p&gt;I wish there was a Linux phone out there that could save me from this. And I&#39;m sure that if I made the switch, I could use it. But there are apps and games that I like to use on my phone that just wouldn&#39;t be available on a Linux phone. Maybe I&#39;d just use my Phone less or adapt to using the web versions of some of the apps that have that sort of thing available, I don&#39;t know. Maybe I should give it a try and see just how usable a Linux phone is.&lt;/p&gt;
+&lt;p&gt;Hope everyone is having a great week. If you&#39;re reading this on the website, you can get these blog posts a week early (along with the occasional early video as well) by supporting me on &lt;a href=&quot;https://www.patreon.com/thelinuxcast&quot;&gt;Patreon&lt;/a&gt;..&lt;/p&gt;
+&lt;p&gt;Matt&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>My Love Affair With Krusader</title>
+		<link href="https://thelinuxcast.org/posts/0001/"/>
+		<updated>2022-05-05T00:00:00Z</updated>
+		<id>https://thelinuxcast.org/posts/0001/</id>
+		<content type="html">&lt;p&gt;I&#39;m a nerd.&lt;/p&gt;
+&lt;p&gt;Kind of obvious, of course, but there is no place where my nerd-dom shines more as when I start talking about file managers.&lt;/p&gt;
+&lt;p&gt;It&#39;s ridiculous, really. I have spend dozens of hours over the last two years looking for the &#39;perfect&#39; file manager. Thunar didn&#39;t have dual pane mode, so I switched to Nemo, which had that feature. Nemo didn&#39;t remember close state, so I switched to Dolphin. That was too bloated with dependencies, so I switched to Krusader.&lt;/p&gt;
+&lt;p&gt;Honestly the only file manager I haven&#39;t spent a lot of time in during the last couple of years is Nautilus, which I can&#39;t stand. I think it smells too much like Gnome.&lt;/p&gt;
+&lt;p&gt;Krusader is my favorite Linux app that I&#39;ve ever used. That&#39;s a shocking thing to even think about, really. A File Manager? Truly?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thelinuxcast.org/img/krusader.png&quot;&gt;&lt;img src=&quot;https://thelinuxcast.org/img/krusader.png&quot; alt=&quot;Krusader&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yes. I&#39;m foolishly enamored with Krusader. It has everything I ever wanted in a File manager. Good tab management. Remembers close state (i.e. all my tabs open up when I restart the app). Is dual pane by default. Has a ton of awesome features like comparing two directories and merging them. And so much more.&lt;/p&gt;
+&lt;p&gt;Now, obviously it has it&#39;s own problems. Dependencies are kind of a mess. Image preview isn&#39;t enabled by default and actually requires a dependency. It also grabs focus for whatever reason sometimes and won&#39;t let go unless you click on another app. That&#39;s odd. But not a deal breaker.&lt;/p&gt;
+&lt;p&gt;I&#39;ve developed a system now that I keep all of my video projects, work projects open in tabs between the two panes, and just rely on them staying there until I&#39;m done. It&#39;s messy by anyone&#39;s standards, but I love it. It had made it actually easier for me to keep track of the things I&#39;m working on. Definitely not the way you should do it, but it works for me.&lt;/p&gt;
+&lt;p&gt;It has led to something else, though. I&#39;ve found myself using tabs other places much more than I used to. I used to be a 4 or 5 tab guy in Firefox. Now I have dozens and have adopted Tab Groups as my next new favorite thing. So I have way more tabs open all the time. Also uses a ton of memory. Right now I&#39;m over 10GB used, which is nuts.&lt;/p&gt;
+&lt;p&gt;So, yeah. I love Krusader. I thought about making another video about it, but decided that no one really cares about this type of thing. Maybe I might do it anyway.&lt;/p&gt;
+&lt;p&gt;Hope everyone&#39;s week is going well,&lt;/p&gt;
+</content>
+	</entry>
+</feed>
